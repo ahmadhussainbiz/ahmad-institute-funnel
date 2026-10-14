@@ -50,10 +50,14 @@ The user asked for implementation after explaining the adaptation. A single-file
 
 GitHub repository: `ahmadhussainbiz/ahmad-institute-funnel`. Read and push permissions were verified. The repository is public. Preserve `main` while reviewing a dedicated branch. Publish no private records or credentials.
 
-Vercel authentication was verified in the previous access check. Project linking and a deployment are separate actions; no production deployment is authorised merely by inspection or source completion.
+Vercel profile authentication works. The account's scoped team and project reads returned HTTP 403, with the provider reporting that the connection is not authorised for the requested project scope. The mapped Vercel CLI fallback is unavailable in this environment. No Vercel project was created, no deployment was made and no protection setting was changed. Resolve project-scope access before preparing a Vercel preview; do not treat a profile read as deployment permission.
+
+The complete HTML and handover files were saved on the `funnel-v1` review branch. Remote HTML was compared with the checked local source and matched exactly. `main` was preserved.
 
 ## Validation record
 
 Completed-file checks passed on 14 October 2026: balanced HTML, exactly five main sections, one primary booking action, unique IDs, valid ARIA/anchor targets, inline resource structure, responsive/reduced-motion rules, correct offer windows and honest default asset/booking states. JavaScript syntax passed. Twelve isolated behaviour checks passed for URL safety, configured booking navigation, indexing guards, optional-image error handling and click-to-load media. Main text/CTA colour combinations exceed a 4.5:1 contrast ratio.
 
-These are source and isolated behaviour checks, not a browser accessibility certification. The managed local preview workflow requires a browser-control capability not available in this environment, so no local browser QA was claimed. A Vercel review preview is being prepared separately. No real booking destination has been supplied or verified.
+These are source and isolated behaviour checks, not a browser accessibility certification. The managed local preview workflow requires a browser-control capability not available in this environment, so no local browser QA was claimed. A Vercel preview is blocked by the project-scope access error. No real booking destination has been supplied or verified.
+
+Smallest remaining manual layout check: download `index.html`, open it in a browser, inspect a desktop width and 390px mobile width, open each FAQ and confirm there is no horizontal overflow. With a real booking URL configured, confirm that the booking button opens the intended calendar; do not create an unwanted appointment. Optional media should be checked only after approved assets are supplied.
