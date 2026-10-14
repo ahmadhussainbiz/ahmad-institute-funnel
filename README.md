@@ -4,9 +4,11 @@ A complete five-section landing page for Ahmad Hussain, Founder of Visionary Co.
 
 ## Open and edit
 
-Open `index.html` in a browser. All CSS, JavaScript, page content and the text-based favicon are inside this file. No package installation, build process or backend is required.
+Open `index.html` in a browser. All CSS, JavaScript, page content, Ahmad's approved portrait and the text-based favicon are inside this file. No package installation, build process or backend is required.
 
-The five sections are headline, what I do, who it is for, founder credibility, and the intake-review CTA. There is one primary booking button, no navigation menu and no footer links. Native FAQ disclosures sit inside the final section.
+The five sections are headline, what I do, who it is for, founder credibility, and the intake-review CTA. The same primary booking action appears in the hero and closing section, with no navigation menu or footer links. Native FAQ disclosures sit inside the final section.
+
+The refined layout keeps the original Arial/Helvetica typography and Georgia working-principle quote. A white split hero, navy service section, light suitability section, near-black founder section and white closing section create purposeful contrast. On mobile, the offer and CTA precede a compact portrait. Motion is brief, adds no initial content hiding and respects reduced-motion preferences.
 
 ## Configure real links and assets
 
@@ -15,7 +17,7 @@ Find the `funnel-settings` JSON block near the end of `index.html`.
 | Setting | Use |
 | --- | --- |
 | `bookingUrl` | Approved HTTPS calendar destination. When empty or invalid, the booking button remains disabled with an honest scheduling message. |
-| `founderPhoto` | Ahmad's selected photo. Use an HTTPS image URL, or embed a JPEG/PNG/WebP/GIF data URL to retain a single-file deliverable. No old photo is selected automatically. |
+| `founderPhoto` | Optional override for the approved portrait already embedded in the hero. Leave empty to keep the supplied photograph. Use an HTTPS image URL or a JPEG/PNG/WebP/GIF data URL. |
 | `videoEmbedUrl` | Approved Loom `/embed/ID`, YouTube privacy-mode `/embed/ID`, or Vimeo `/video/ID` URL. The optional video block is hidden until configured. The iframe loads only after the viewer presses play. |
 | `videoPoster` | Optional approved image for the video. |
 | `videoTranscript` | Actual approved transcript. JSON requires escaped newlines as `\n`. No transcript is fabricated. |
@@ -32,7 +34,7 @@ The target is 30 unique qualified enquiries in 15 live advertising days after ca
 
 Founder credibility is based on the supplied Pakistani advertising and teaching experience. No Canadian results, testimonials, student counts or approved client proof are invented.
 
-The reference set, founder photo, video and proof assets remain open. See `docs/PROJECT.md` for decisions, review notes and launch requirements.
+The selected founder photo is now included. The reference set, video and proof assets remain open. Numerical client claims require confirmation of the number, wording and whether the experience belongs to Ahmad personally or Visionary Co. See `docs/PROJECT.md` for decisions, review notes and launch requirements.
 
 ## GitHub and Vercel
 
@@ -42,6 +44,6 @@ For Vercel, import the GitHub repository and use a static/Other project with the
 
 ## Verification
 
-Static checks cover the five-section structure, one booking action, inline styles/scripts, link targets, heading hierarchy, configuration defaults, HTML parsing and JavaScript syntax. Behaviour checks cover safe booking URLs, staging indexing, optional-media hiding, click-to-load video and optional image failures.
+Static checks cover the five-section structure, consistent booking action, inline styles/scripts, link targets, heading hierarchy, configuration defaults, embedded portrait decoding, HTML parsing, JavaScript syntax and text contrast. Fourteen isolated behaviour checks cover both booking buttons, safe booking URLs, staging indexing, optional-media hiding, click-to-load video, optional image failures and reduced-motion/entry handling.
 
 Actual browser inspection and any deployed preview are reported separately; source checks do not establish a conversion rate, complete accessibility certification or live booking delivery.
