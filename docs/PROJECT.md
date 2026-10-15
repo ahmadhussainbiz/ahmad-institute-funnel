@@ -1,5 +1,21 @@
 # Funnel project record
 
+## Review update — 15 October 2026
+
+Source inspection found `main` at `6e7cbe51cfdb5d653a46611ff7a285c51037a022`, containing only the initial README. The existing single-file funnel is on GitHub's `funnel-v1` at `28373073777de3520557d442e20b19fd70de2c6b`. This update branches from that existing funnel onto `review/funnel-design-refinements`. No uploaded HTML or separate portrait file is accessible in this session; there is no uploaded version available to compare. The already embedded portrait is available, decodes correctly, and its bytes are preserved exactly.
+
+The source already contained the requested section palette, split hero, founder copy, restrained outline icons and reduced-motion behaviour. Those are retained. This pass makes Ahmad's identity primary in the masthead with Visionary Co. as the supporting founder line, integrates the photograph into a navy frame and caption, improves supporting text sizes and FAQ states, and confines card hover movement to devices with a precise pointer. An unavailable optional portrait override now falls back to the original image instead of removing the photograph.
+
+The original Arial/Helvetica and Georgia font declarations, four prices and budget descriptions, management-fee guarantee, and all qualification/service/refund FAQ terms are preserved verbatim. The offer remains qualified course enquiries, with no paid-enrolment guarantee. Credibility stays non-numerical and tied to Ahmad's experience in Pakistan; no personal/company client count is asserted.
+
+Actual Chromium checks passed 101 assertions. Layouts were exercised at 320, 360, 390, 480, 640, 768, 800, 801, 1024, 1440 and 1920 CSS pixels: no horizontal overflow or offscreen main content; copy precedes the compact portrait through the tablet breakpoint; desktop has copy left and photograph right. Full-page and hero screenshots at 390px and 1440px were visually reviewed. The portrait displays without broken assets or facial clipping. The default page makes no external resource requests and produced no JavaScript errors.
+
+Axe-core WCAG 2/2.1 A/AA scans reported zero automated violations at each width. Keyboard checks covered the skip link, visible focus, all three FAQ disclosures with Enter/Space, and 44px summary touch targets. Both booking controls were tested with an intercepted HTTPS test destination, without opening a real calendar or making an appointment. Invalid/missing booking URLs remain disabled and keep the page unindexed. Reduced motion disables the relevant animation/transitions; all five sections, the embedded portrait and native FAQ remain usable with JavaScript disabled. Optional portrait failure restores the embedded image. A configured video was tested using an intercepted embed: no iframe/provider request before activation, responsive frame after activation and no autoplay permission/parameter. An unapproved video host remains hidden. Test fixtures and axe were kept outside the checkout; the site still needs no dependencies or build.
+
+Booking, Loom, transcript/poster and canonical URL remain missing. Booking buttons remain honestly disabled; the video block and play control remain hidden. Numerical credibility needs confirmation of count and whether it is personal or company experience. The previously recorded commercial launch requirements remain open. Actual calendar delivery and actual video playback cannot be verified until their links are supplied. Automated checks do not replace human accessibility review or cross-browser testing; only Chromium was exercised here.
+
+This review does not change Vercel access or deploy the page. The earlier Vercel scope issue was recorded by the existing project notes and was not re-tested in this environment. No merge, production deployment or indexing activation was performed.
+
 ## Direction recorded 14 October 2026
 
 Identity: Ahmad Hussain — Founder of Visionary Co. Audience: owners and admissions decision-makers at independent Canadian training institutes. One primary action: a 20-minute intake-review call. Initial scope: one selected course and one upcoming intake, proposed for final confirmation.

@@ -10,6 +10,8 @@ The five sections are headline, what I do, who it is for, founder credibility, a
 
 The refined layout keeps the original Arial/Helvetica typography and Georgia working-principle quote. A white split hero, navy service section, light suitability section, near-black founder section and white closing section create purposeful contrast. On mobile, the offer and CTA precede a compact portrait. Motion is brief, adds no initial content hiding and respects reduced-motion preferences.
 
+The latest review makes Ahmad's name the primary masthead identity, frames the original photograph in navy, increases smaller supporting text and polishes FAQ states. Card hover movement applies only to devices with a precise pointer. If an optional replacement photograph fails, the original embedded photograph is restored.
+
 ## Configure real links and assets
 
 Find the `funnel-settings` JSON block near the end of `index.html`.
@@ -47,3 +49,5 @@ For Vercel, import the GitHub repository and use a static/Other project with the
 Static checks cover the five-section structure, consistent booking action, inline styles/scripts, link targets, heading hierarchy, configuration defaults, embedded portrait decoding, HTML parsing, JavaScript syntax and text contrast. Fourteen isolated behaviour checks cover both booking buttons, safe booking URLs, staging indexing, optional-media hiding, click-to-load video, optional image failures and reduced-motion/entry handling.
 
 Actual browser inspection and any deployed preview are reported separately; source checks do not establish a conversion rate, complete accessibility certification or live booking delivery.
+
+On 15 October 2026, Chromium validation passed 101 assertions covering responsive layouts at 11 widths from 320px to 1920px, keyboard interaction, JavaScript-disabled content, reduced motion, portrait fallback, URL handling and click-to-load video. Axe reported no automated WCAG A/AA violations at those widths. Real booking and Loom delivery remain untested because their approved links are missing. See the latest review record in `docs/PROJECT.md`. No merge or production deployment was performed.
