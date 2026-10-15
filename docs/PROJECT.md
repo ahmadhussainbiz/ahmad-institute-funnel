@@ -1,5 +1,15 @@
 # Funnel project record
 
+## Calendly and scroll update — 15 October 2026
+
+The user supplied `https://calendly.com/imhussain00112/free-growth-strategy-call`. It is configured in `bookingUrl` and enables both existing booking controls. The approved intake-review CTA wording is retained. No calendar embed, tracker, new dependency or automatic Calendly request is added. The event's availability and duration have not been independently verified: a read-only HTTPS check was blocked by the environment proxy with CONNECT HTTP 403. No appointment was created.
+
+Individual introductions, service rows, fit cards, the founder principle and closing content now animate once when entering view. The 620ms entrance uses an 18px upward movement and a restrained fade from 80% opacity. Paired rows/cards have a 70ms offset. Elements remain fully visible before JavaScript applies the entrance class; missing IntersectionObserver leaves normal content. Reduced motion skips observation and disables animation. The effect finishes without retaining a transform, preserving card hover behaviour.
+
+All 58 targeted Chromium assertions passed, covering 320/390/768/1024/1440px layouts, no horizontal overflow before or after animation, both enabled booking controls and their exact intercepted navigation destination, keyboard focus, one-time scroll animation, completed-animation hover, reduced motion, JavaScript-disabled FAQ/content, unsupported IntersectionObserver, portrait decoding, and unchanged portrait/pricing/guarantee/qualification terms. Updated desktop and mobile screenshots were visually checked. The earlier 101-assertion accessibility/layout review below records the preceding version; it was not rerun in full for this update.
+
+Booking URL supply is resolved. Live calendar verification, Loom, optional poster/transcript, canonical URL and the remaining commercial launch approvals stay open. `readyForLaunch` remains false and indexing remains disabled. Changes stay on `review/funnel-design-refinements`; no merge or deployment is performed.
+
 ## Review update — 15 October 2026
 
 Source inspection found `main` at `6e7cbe51cfdb5d653a46611ff7a285c51037a022`, containing only the initial README. The existing single-file funnel is on GitHub's `funnel-v1` at `28373073777de3520557d442e20b19fd70de2c6b`. This update branches from that existing funnel onto `review/funnel-design-refinements`. No uploaded HTML or separate portrait file is accessible in this session; there is no uploaded version available to compare. The already embedded portrait is available, decodes correctly, and its bytes are preserved exactly.
@@ -45,7 +55,7 @@ The user asked for implementation after explaining the adaptation. A single-file
 | Actual transcript | Pending; omitted |
 | Canadian case studies | None established |
 | Testimonials/work examples | No publication-approved assets supplied |
-| Booking URL | Pending; both instances of the same booking action disabled honestly |
+| Booking URL | Supplied Calendly URL configured in both booking controls; live calendar verification blocked by the environment proxy |
 | Final canonical URL | Pending |
 | Tracking/pixels | Not approved or added |
 | Numerical client claim | Unconfirmed; non-numerical personal experience used instead |
@@ -70,7 +80,7 @@ Brief movement introduces the hero and selected sections. Content is visible bef
 - Approve the setup deadline; the seven-business-day suggestion remains a proposal and is not published.
 - Confirm media and software budget coverage periods and selected tools.
 - Approve final interruption, responsibility and refund procedures.
-- Supply a real booking URL and verify its destination without creating an unwanted appointment.
+- Verify the supplied Calendly event's live availability, duration and intended audience without creating an unwanted appointment.
 - Supply the actual Loom URL and any approved poster/transcript if video is wanted.
 - Confirm the proposed numerical client claim and distinguish personal experience from the agency's company record before adding it.
 - Review remaining references and final copy.

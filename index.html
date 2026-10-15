@@ -287,10 +287,11 @@
     }
     .hero-enter { animation: hero-settle .5s ease-out both; }
     .portrait-enter { animation: portrait-settle .6s ease-out both; }
-    [data-reveal].in-view { animation: section-settle .5s ease-out both; }
+    .scroll-reveal.in-view { animation: section-settle .62s cubic-bezier(.2,.7,.2,1) backwards; }
+    .service-list > li:nth-child(even).in-view, .fit-item:nth-child(even).in-view { animation-delay: .07s; }
     @keyframes hero-settle { from { transform: translateY(7px); } to { transform: translateY(0); } }
     @keyframes portrait-settle { from { transform: translateY(9px); } to { transform: translateY(0); } }
-    @keyframes section-settle { from { transform: translateY(9px); } to { transform: translateY(0); } }
+    @keyframes section-settle { from { opacity: .8; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
     @media (max-width: 1000px) and (min-width: 801px) {
       .hero-grid { grid-template-columns: minmax(0,1.25fr) minmax(0,1fr); gap: 32px; }
       h1 { font-size: clamp(41px,5.5vw,54px); }
@@ -493,7 +494,7 @@
        No calendar, analytics, advertising pixel or video provider loads by default. -->
   <script id="funnel-settings" type="application/json">
     {
-      "bookingUrl": "",
+      "bookingUrl": "https://calendly.com/imhussain00112/free-growth-strategy-call",
       "founderPhoto": "",
       "videoEmbedUrl": "",
       "videoPoster": "",
@@ -590,7 +591,8 @@
           frame.focus();
         }, { once: true });
       }
-      // Reveals add movement only when supported. The default content stays visible.
+      // Animate each block once as it enters view. Nothing is hidden before observation,
+      // so the page remains readable without JavaScript or IntersectionObserver.
       const reducedMotion = typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if (!reducedMotion && 'IntersectionObserver' in window) {
         const observer = new window.IntersectionObserver(entries => {
@@ -600,8 +602,16 @@
               observer.unobserve(entry.target);
             }
           });
-        }, { threshold: 0.12 });
-        document.querySelectorAll('[data-reveal]').forEach(element => observer.observe(element));
+        }, { threshold: 0.12, rootMargin: '0px 0px -24px 0px' });
+        const revealTargets = document.querySelectorAll(
+          '[data-reveal] > :first-child, .service-list > li, .fit-item, .fit-note, ' +
+          '.founder .principle, .cta-section .section-title, .cta-description, ' +
+          '.costs, .guarantee, .cta-section .booking, .faq'
+        );
+        revealTargets.forEach(element => {
+          element.classList.add('scroll-reveal');
+          observer.observe(element);
+        });
       }
     })();
   </script>

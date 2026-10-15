@@ -16,6 +16,10 @@ The latest review makes Ahmad's name the primary masthead identity, frames the o
 
 Find the `funnel-settings` JSON block near the end of `index.html`.
 
+The supplied Calendly destination is now configured as `https://calendly.com/imhussain00112/free-growth-strategy-call`, enabling both booking buttons. It opens on activation rather than embedding or preloading a calendar. Loom is still missing and stays hidden. The page remains in design review with `readyForLaunch: false`.
+
+Scroll entrances apply once to individual section introductions, service rows, suitability cards and closing content. They use a short 18px movement with a gentle fade and small paired-card delays. Content starts visible, no animation library is used, and reduced-motion preferences disable the effect.
+
 | Setting | Use |
 | --- | --- |
 | `bookingUrl` | Approved HTTPS calendar destination. When empty or invalid, the booking button remains disabled with an honest scheduling message. |
@@ -50,4 +54,6 @@ Static checks cover the five-section structure, consistent booking action, inlin
 
 Actual browser inspection and any deployed preview are reported separately; source checks do not establish a conversion rate, complete accessibility certification or live booking delivery.
 
-On 15 October 2026, Chromium validation passed 101 assertions covering responsive layouts at 11 widths from 320px to 1920px, keyboard interaction, JavaScript-disabled content, reduced motion, portrait fallback, URL handling and click-to-load video. Axe reported no automated WCAG A/AA violations at those widths. Real booking and Loom delivery remain untested because their approved links are missing. See the latest review record in `docs/PROJECT.md`. No merge or production deployment was performed.
+Before Calendly was supplied on 15 October 2026, Chromium validation passed 101 assertions covering responsive layouts at 11 widths from 320px to 1920px, keyboard interaction, JavaScript-disabled content, reduced motion, portrait fallback, URL handling and click-to-load video. Axe reported no automated WCAG A/AA violations at those widths. At that stage, booking and Loom links were missing. See the latest review record in `docs/PROJECT.md`. No merge or production deployment was performed.
+
+After the Calendly and scroll update, 58 targeted Chromium assertions passed at 320, 390, 768, 1024 and 1440px. They cover both enabled buttons navigating to the exact supplied URL (intercepted), keyboard focus, one-time scroll activation, card hover after animation, reduced motion, no-JavaScript/no-IntersectionObserver fallbacks, portrait loading, unchanged offer terms and overflow. A direct request to Calendly was blocked by the environment proxy (CONNECT HTTP 403), so live event availability and duration were not verified and no appointment was made. Loom remains unconfigured. Fresh mobile and desktop screenshots were reviewed.
