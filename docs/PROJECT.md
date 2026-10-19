@@ -1,5 +1,15 @@
 # Funnel project record
 
+## Second-section layout refinement — 19 October 2026
+
+The user's screenshot identified uneven process arrows and weak spacing in the navy section. This update replaces the text-glyph arrows and top-rule layout with four circular outline-icon nodes, identical SVG arrowheads and connectors positioned from node centres. Desktop stage labels share a top edge; mobile uses a vertical column with centred downward connectors. The three problem rows gain matching outline icons in restrained rounded-square shapes, consistent padding and improved heading alignment. A lightly tinted, bordered process panel groups the workflow and preserves its exact outcome disclaimer. The icons are decorative and hidden from assistive technology; the semantic ordered list still communicates the stages.
+
+All original section paragraphs, offer terms and process labels remain. Source comparison confirms that all markup, scripts and copy outside this section are unchanged. No libraries, generated images, competing actions or continuous motion were added. The existing reduced-motion and progressive-reveal behaviour is preserved.
+
+The final HTML passed **116 targeted assertions** at 320, 360, 390, 430, 540, 768, 800, 801, 1024, 1440 and 1920 CSS pixels. Actual browser geometry verifies equal horizontal node spacing/connector lengths, shared node and label alignment, arrow clearance, and equal vertical spacing/centred arrows on mobile. Checks also cover containment, overflow, preserved text, SVG accessibility, script errors, reduced motion and no-JavaScript visibility. Axe WCAG A/AA scans of the section report zero automated violations at all eleven widths. These are focused checks for this change; the preceding 232-check whole-page record remains the earlier validation, not a rerun of this version.
+
+Actual rendered close-ups: `previews/process-desktop.png` and `previews/process-mobile.png`. The full-page desktop/mobile screenshots are refreshed, and `verification-process-2026-10-19.json` records the tested HTML hash. The changes remain on the review branch. No merge, production deployment, booking destination, pricing, portrait or launch setting was changed.
+
 ## Buyer-relevance and evidence review — 19 October 2026
 
 Source: the clean, current `review/funnel-design-refinements` branch at `2b3d69be9b400a5fcf3e618f3d4a45a68302a3e5`. It already contained the portrait, supplied Calendly URL and scroll reveals. No unrelated local edits were present. The new attachment was a text design brief; no PDF, uploaded HTML, separate photo, Loom, case evidence or teaching/creative artifact was accessible. The PDF description in the brief was treated as guidance, not as an inspected document or a live pagination defect. No conflicting uploaded HTML was overwritten. Earlier dated entries below are history, not current public content or current asset status.

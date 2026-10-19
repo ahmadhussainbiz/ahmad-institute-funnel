@@ -43,4 +43,6 @@ The work is on `review/funnel-design-refinements`, based on the original `funnel
 
 Actual Chromium screenshots: [desktop](docs/previews/desktop.png), [mobile](docs/previews/mobile.png), [qualification example](docs/previews/qualification-example.png). These show the rendered HTML, not a generated mockup. The project record lists the final browser checks and their limits. Automated accessibility checks are not a complete accessibility certification.
 
+Second-section close-ups: [desktop process](docs/previews/process-desktop.png) and [mobile process](docs/previews/process-mobile.png). The refined diagram uses consistent outline icons, evenly aligned SVG connectors and a vertical mobile flow. This scoped update passed 116 targeted layout/accessibility assertions; see the latest project record.
+
 No merge, production deployment, Vercel protection change or indexing activation is performed. For an eventual static Vercel deployment, the existing settings remain: Other framework, repository root, no install/build command, output `.`. Publication requires separate instruction. A direct Calendly check is blocked by the environment proxy; navigation can be tested without creating an appointment. Actual Loom playback remains untestable until a genuine URL is supplied.

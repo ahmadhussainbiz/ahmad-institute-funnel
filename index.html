@@ -84,18 +84,27 @@
     .what .eyebrow { color: var(--blue-light); }
     .what p { color: var(--navy-muted); }
     .what :focus-visible { outline-color: var(--blue-light); }
-    .method-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: end; }
+    .method-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
     .method-heading p { max-width: 55ch; }
-    .situations { padding: 0; margin: 34px 0 0; list-style: none; border-top: 1px solid var(--navy-line); }
-    .situations li { display: grid; grid-template-columns: .9fr 1.5fr; gap: 48px; padding-block: 18px; border-bottom: 1px solid var(--navy-line); }
+    .situations { padding: 0; margin: 36px 0 0; list-style: none; border-top: 1px solid var(--navy-line); }
+    .situations li { display: grid; grid-template-columns: .95fr 1.45fr; gap: 40px; align-items: center; padding-block: 22px; border-bottom: 1px solid var(--navy-line); }
+    .situation-heading { display: flex; align-items: center; gap: 14px; }
+    .situation-icon { display: grid; place-items: center; width: 38px; height: 38px; flex: 0 0 38px; border: 1px solid var(--navy-line); border-radius: 8px; background: #1a3853; color: var(--blue-light); }
+    .situation-icon svg, .process-node > svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
     .situations h3 { font-size: 18px; font-weight: 600; }
     .situations p { font-size: 17px; }
-    .process { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 22px; list-style: none; padding: 0; margin: 34px 0 0; }
-    .process li { position: relative; padding-top: 16px; border-top: 2px solid var(--navy-line); min-width: 0; }
-    .process li + li::before { content: "→"; position: absolute; top: -17px; left: -23px; color: var(--blue-light); font-size: 20px; }
-    .process span { display: block; font-size: 13px; color: var(--blue-light); margin-bottom: 8px; }
-    .process strong { font-size: 17px; font-weight: 600; line-height: 1.45; display: block; }
-    .outcome-note { margin-top: 22px; font-size: 15px; max-width: 80ch; }
+    .process-panel { margin-top: 32px; padding: 28px; border: 1px solid var(--navy-line); border-radius: 8px; background: #16344e; }
+    .process-panel h3 { font-size: 18px; font-weight: 600; }
+    .process { --process-gap: 24px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: var(--process-gap); list-style: none; padding: 0; margin: 26px 0 0; }
+    .process li { position: relative; min-width: 0; text-align: center; }
+    .process-node { position: relative; display: grid; place-items: center; width: 64px; height: 64px; margin-inline: auto; border: 1px solid #7d9bb8; border-radius: 50%; background: var(--navy); color: var(--blue-light); }
+    .process-node > svg { width: 27px; height: 27px; }
+    .process-step { position: absolute; top: -5px; right: -7px; display: grid; place-items: center; width: 24px; height: 24px; border: 3px solid #16344e; border-radius: 50%; background: var(--blue-light); color: var(--navy); font-size: 11px; font-weight: 700; line-height: 1; }
+    .process strong { display: block; max-width: 19ch; margin: 16px auto 0; font-size: 17px; font-weight: 600; line-height: 1.45; }
+    .process-connector { position: absolute; top: 24px; left: calc(50% + 42px); width: calc(100% + var(--process-gap) - 84px); height: 16px; color: var(--blue-light); }
+    .process-connector::before { content: ""; position: absolute; top: 7.5px; left: 0; right: 8px; height: 1px; background: currentColor; }
+    .process-connector svg { position: absolute; top: 0; right: 0; width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    .outcome-note { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--navy-line); font-size: 15px; max-width: none; }
     .section-split { display: grid; grid-template-columns: .95fr 1.05fr; gap: clamp(36px, 6vw, 76px); }
     .sample-copy { align-self: center; }
     .sample-copy p + p { margin-top: 15px; }
@@ -164,13 +173,12 @@
       .portrait-frame img { object-position: center 44%; }
       .hero-portrait figcaption { text-align: center; }
       .method-heading { gap: 20px; }
-      .situations li { grid-template-columns: 1fr 1.4fr; gap: 26px; }
-      .process { grid-template-columns: 1fr; gap: 0; }
-      .process li { border-top: 0; border-left: 2px solid var(--navy-line); padding: 0 0 22px 22px; }
-      .process li:last-child { padding-bottom: 0; }
-      .process li + li::before { content: "↓"; left: -8px; top: -20px; background: var(--navy); }
-      .process span { display: inline; margin-right: 12px; }
-      .process strong { display: inline; }
+      .situations li { grid-template-columns: 1fr 1.25fr; gap: 26px; }
+      .process { grid-template-columns: 1fr; gap: 28px; }
+      .process li { display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; min-height: 64px; text-align: left; }
+      .process-node { margin: 0; }
+      .process strong { margin: 0; max-width: none; }
+      .process-connector { left: 24px; top: calc(100% + 6px); width: 16px; transform: rotate(90deg); }
       .founder { padding-left: 0; padding-top: 28px; border-left: 0; border-top: 1px solid var(--line); }
       .extra-costs div { grid-template-columns: 190px 1fr; gap: 16px; }
       .commercial { gap: 24px; }
@@ -194,6 +202,10 @@
       .role-line span + span { padding-left: 0; border-left: 0; }
       .situations li { grid-template-columns: 1fr; gap: 7px; padding-block: 18px; }
       .situations p { font-size: 16px; }
+      .situations p { padding-left: 52px; }
+      .process-panel { padding: 24px 20px; }
+      .process li { gap: 16px; }
+      .process strong { font-size: 16px; }
       .work-sample { padding: 22px; }
       .sample-questions li { font-size: 16px; }
       .extra-costs div { grid-template-columns: 1fr; gap: 2px; }
@@ -266,17 +278,20 @@
           <p>If these situations sound familiar, I connect the advertising with the information admissions needs.</p>
         </div>
         <ul class="situations">
-          <li data-reveal><h3>Interest without course fit</h3><p>Check course preference, prerequisites, tuition awareness and intake timing before treating an enquiry as qualified.</p></li>
-          <li data-reveal><h3>Enquiries without a clear next step</h3><p>Route each suitable enquiry to admissions with a named follow-up owner.</p></li>
-          <li data-reveal><h3>Advertising without payment visibility</h3><p>Track the stages so reporting distinguishes enquiries from students who actually pay.</p></li>
+          <li data-reveal><div class="situation-heading"><span class="situation-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 4H6a2 2 0 0 0-2 2v14h16V6a2 2 0 0 0-2-2h-3M9 3h6v4H9zM8 14l3 3 5-6"/></svg></span><h3>Interest without course fit</h3></div><p>Check course preference, prerequisites, tuition awareness and intake timing before treating an enquiry as qualified.</p></li>
+          <li data-reveal><div class="situation-heading"><span class="situation-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 6h12m-4-4 4 4-4 4M20 18H8m4-4-4 4 4 4M4 6v12h4"/></svg></span><h3>Enquiries without a clear next step</h3></div><p>Route each suitable enquiry to admissions with a named follow-up owner.</p></li>
+          <li data-reveal><div class="situation-heading"><span class="situation-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 4v16h16M9 15v-4M14 15V8M19 15V5"/></svg></span><h3>Advertising without payment visibility</h3></div><p>Track the stages so reporting distinguishes enquiries from students who actually pay.</p></li>
         </ul>
-        <ol class="process" aria-label="Enquiry-to-admissions workflow" data-reveal>
-          <li><span>01</span><strong>Course message</strong></li>
-          <li><span>02</span><strong>Qualified enquiry</strong></li>
-          <li><span>03</span><strong>Admissions conversation</strong></li>
-          <li><span>04</span><strong>Paid enrolment tracked</strong></li>
-        </ol>
-        <p class="outcome-note">Paid enrolment is tracked, not guaranteed by the enquiry target. Your institute retains admissions decisions and student closing.</p>
+        <div class="process-panel" data-reveal>
+          <h3 id="process-title">The admissions handoff</h3>
+          <ol class="process" aria-labelledby="process-title">
+            <li><span class="process-node" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 10v4h4l9 4V6l-9 4H4zM8 14l2 6h3l-2-5M21 9v6"/></svg><span class="process-step">01</span></span><strong>Course message</strong><span class="process-connector" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false"><path d="M2 8h10m-4-4 4 4-4 4"/></svg></span></li>
+            <li><span class="process-node" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M9 4H6a2 2 0 0 0-2 2v14h16V6a2 2 0 0 0-2-2h-3M9 3h6v4H9zM8 14l3 3 5-6"/></svg><span class="process-step">02</span></span><strong>Qualified enquiry</strong><span class="process-connector" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false"><path d="M2 8h10m-4-4 4 4-4 4"/></svg></span></li>
+            <li><span class="process-node" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 4h16v12H9l-5 4V4zM8 8h8M8 12h5"/></svg><span class="process-step">03</span></span><strong>Admissions conversation</strong><span class="process-connector" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false"><path d="M2 8h10m-4-4 4 4-4 4"/></svg></span></li>
+            <li><span class="process-node" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="m3 9 9-5 9 5-9 5-9-5zM7 12v6c3 2 7 2 10 0v-6M21 9v8"/></svg><span class="process-step">04</span></span><strong>Paid enrolment tracked</strong></li>
+          </ol>
+          <p class="outcome-note">Paid enrolment is tracked, not guaranteed by the enquiry target. Your institute retains admissions decisions and student closing.</p>
+        </div>
       </div>
     </section>
 
