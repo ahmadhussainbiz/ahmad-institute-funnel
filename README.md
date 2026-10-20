@@ -11,7 +11,7 @@ The page flows from the owner-focused hero through enquiry-to-admissions situati
 All booking placements use the supplied Calendly destination:
 `https://calendly.com/imhussain00112/free-growth-strategy-call`
 
-These are ordinary links and work without JavaScript. JavaScript can update all of them from the `funnel-settings` JSON block. If changing the approved destination, update the static fallback links as well as `bookingUrl`. Invalid configuration cannot replace the approved fallback with an unsafe URL. The desktop header booking link is hidden on phones; the hero, approach and closing CTAs remain available.
+There are exactly two booking links: the hero and final close. Both are ordinary links and work without JavaScript. JavaScript can update both from the `funnel-settings` JSON block. If changing the approved destination, update the static fallback links as well as `bookingUrl`. Invalid configuration cannot replace the approved fallback with an unsafe URL. No header or approach booking button is present.
 
 ## Optional configuration
 
@@ -33,7 +33,9 @@ There are no external scripts, fonts, tracking pixels, calendar embeds or provid
 
 The commitment is 30 unique qualified course enquiries in the agreed first 15 live advertising days after launch for one course and intake. Paid enrolments, applications and booked admissions meetings are distinct. Management covers 30 live advertising days.
 
-Management is CAD650, setup CAD500, media CAD2,000 and software an estimated CAD150 allowance. Media/software coverage periods are not invented. Additional costs are visible before booking. The management-fee guarantee remains verbatim; setup-failure terms are separate. No future price stages are published.
+Public pricing and the cost breakdown are removed at the user's request on 20 October 2026; fees are discussed in the meeting. The conditional management-fee guarantee is retained without a numeric fee amount, with the existing exclusions and separate setup-failure remedy. No new commercial terms or future prices are invented. The word the user asked to remove is also absent from metadata, hidden-video labels and script-generated titles.
+
+The main H1 is exactly “30 unique qualified course enquiries within 15 live advertising days.” The professional role line uses the user's supplied wording: Meta Ads expert; Founder, Visionaryco / Visionaryskills; Digital marketing instructor. These are self-described roles, not third-party certifications or evidence of Canadian campaign results.
 
 See [claim register](docs/CLAIMS.md) and [project/evidence/launch record](docs/PROJECT.md) for sources, missing evidence and review requirements.
 
@@ -43,6 +45,6 @@ The work is on `review/funnel-design-refinements`, based on the original `funnel
 
 Actual Chromium screenshots: [desktop](docs/previews/desktop.png), [mobile](docs/previews/mobile.png), [qualification example](docs/previews/qualification-example.png). These show the rendered HTML, not a generated mockup. The project record lists the final browser checks and their limits. Automated accessibility checks are not a complete accessibility certification.
 
-Second-section close-ups: [desktop process](docs/previews/process-desktop.png) and [mobile process](docs/previews/process-mobile.png). The refined diagram uses consistent outline icons, evenly aligned SVG connectors and a vertical mobile flow. This scoped update passed 116 targeted layout/accessibility assertions; see the latest project record.
+Second-section close-ups: [desktop process](docs/previews/process-desktop.png) and [mobile process](docs/previews/process-mobile.png). The heading and outcome note are centred; the diagram retains aligned SVG connectors and a vertical mobile flow. The portrait uses layered CSS framing without modifying image bytes. The approach, fit/founder, commitment, FAQ and final-close sections share restrained outlines and geometric accents. The current version passed 302 browser assertions, including automated accessibility scans, at eleven widths; see the latest project record.
 
 No merge, production deployment, Vercel protection change or indexing activation is performed. For an eventual static Vercel deployment, the existing settings remain: Other framework, repository root, no install/build command, output `.`. Publication requires separate instruction. A direct Calendly check is blocked by the environment proxy; navigation can be tested without creating an appointment. Actual Loom playback remains untestable until a genuine URL is supplied.

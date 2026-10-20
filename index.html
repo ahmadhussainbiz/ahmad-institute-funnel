@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Course Enquiry Pilot | Ahmad Hussain — Visionary Co.</title>
-  <meta name="description" content="A focused Meta Ads pilot for Canadian training institutes, targeting 30 qualified course enquiries within 15 live advertising days, with qualification and admissions follow-up.">
+  <title>Qualified Course Enquiries | Ahmad Hussain — Visionary Co.</title>
+  <meta name="description" content="30 unique qualified course enquiries within 15 live advertising days for independent Canadian training providers, with Meta Ads, qualification and admissions follow-up.">
   <meta id="page-robots" name="robots" content="noindex, nofollow">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Your next intake. Better-qualified course enquiries.">
+  <meta property="og:title" content="30 qualified course enquiries in 15 live advertising days.">
   <meta property="og:description" content="Meta advertising, qualification and admissions follow-up for independent Canadian training institutes. Led by Ahmad Hussain, Founder of Visionary Co.">
   <meta id="page-og-url" property="og:url" content="">
   <meta name="theme-color" content="#FFFFFF">
@@ -43,11 +43,13 @@
     .booking-button:hover { background: var(--blue-dark); border-color: var(--blue-dark); transform: translateY(-1px); }
     .booking-button:active { transform: translateY(1px); }
     .booking-button[aria-disabled="true"] { opacity: .7; cursor: not-allowed; }
-    .header-booking { min-height: 44px; padding: 10px 17px; background: transparent; color: var(--blue); font-size: 14px; }
-    .header-booking:hover { background: var(--blue); color: var(--white); }
     .eyebrow { color: var(--blue); font-size: 13px; line-height: 1.55; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
     .section { padding-block: var(--section-space); }
-    h1 { font-size: clamp(44px, 4.8vw, 62px); line-height: 1.06; letter-spacing: -.052em; font-weight: 700; margin: 20px 0 22px; max-width: 13ch; }
+    h1 { font-size: clamp(44px, 4.6vw, 60px); line-height: 1.07; letter-spacing: -.05em; font-weight: 700; margin: 20px 0 24px; }
+    .headline-main { display: block; }
+    .headline-number { color: var(--blue); }
+    .headline-window { display: block; margin-top: 14px; font-size: clamp(26px, 2.3vw, 32px); font-weight: 400; line-height: 1.3; letter-spacing: -.025em; }
+    .headline-window strong { font-weight: 700; color: var(--blue); }
     h2 { font-size: clamp(32px, 3.2vw, 44px); line-height: 1.15; letter-spacing: -.04em; font-weight: 700; }
     h3 { font-size: 20px; line-height: 1.35; letter-spacing: -.4px; }
     .section-title { margin-top: 14px; }
@@ -56,18 +58,17 @@
     .hero-grid { display: grid; grid-template-columns: minmax(0,1.38fr) minmax(0,.92fr); gap: clamp(40px, 5vw, 72px); align-items: center; }
     .hero-content { min-width: 0; }
     .hero-copy { max-width: 56ch; color: var(--muted); }
-    .hero-offer { margin-top: 24px; padding-left: 17px; border-left: 3px solid var(--blue); font-size: 21px; line-height: 1.45; max-width: 36ch; }
-    .hero-offer span { display: block; margin-bottom: 4px; font-size: 14px; font-weight: 700; color: var(--muted); }
-    .hero-offer strong { color: var(--blue); }
     .hero-booking { margin-top: 26px; }
     .booking-state { font-size: 15px; color: var(--muted); margin-top: 10px; }
     .scope-line { max-width: 59ch; margin-top: 16px; color: var(--muted); font-size: 15px; }
-    .hero-portrait { width: 100%; max-width: 390px; justify-self: end; min-width: 0; }
-    .portrait-frame { aspect-ratio: 4 / 5; border-radius: 4px; overflow: hidden; background: var(--paper); }
-    .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 48%; max-width: none; }
+    .hero-portrait { position: relative; isolation: isolate; width: 100%; max-width: 390px; justify-self: end; min-width: 0; }
+    .hero-portrait::before { content: ""; position: absolute; z-index: -1; inset: -8px 14px 36px -8px; border: 1px solid #a8bce7; border-radius: 22px; background: #f2f5fc; transform: rotate(-2deg); pointer-events: none; }
+    .hero-portrait::after { content: ""; position: absolute; right: -9px; bottom: 70px; width: 54px; height: 54px; border-right: 3px solid var(--blue); border-bottom: 3px solid var(--blue); border-radius: 0 0 15px 0; pointer-events: none; }
+    .portrait-frame { aspect-ratio: 4 / 5; padding: 10px; border: 1px solid #c8d4e7; border-radius: 16px; overflow: hidden; background: var(--white); box-shadow: 0 18px 36px rgba(16,42,67,.08); }
+    .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 48%; max-width: none; border-radius: 8px; }
     .hero-portrait figcaption { padding-top: 12px; font-size: 14px; line-height: 1.5; color: var(--muted); }
     .hero-portrait figcaption strong { color: var(--ink); font-weight: 600; }
-    .role-line { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 24px; color: var(--muted); font-size: 15px; }
+    .role-line { margin-top: 38px; padding: 18px 24px; border: 1px solid var(--line); border-radius: 10px; background: #f7f9fd; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 24px; color: var(--muted); font-size: 15px; }
     .role-line span + span { padding-left: 24px; border-left: 1px solid var(--line); }
     .media { margin: 42px auto 12px; max-width: 860px; }
     .media h2 { font-size: clamp(28px, 3vw, 36px); }
@@ -84,8 +85,10 @@
     .what .eyebrow { color: var(--blue-light); }
     .what p { color: var(--navy-muted); }
     .what :focus-visible { outline-color: var(--blue-light); }
-    .method-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
-    .method-heading p { max-width: 55ch; }
+    .method-heading { max-width: 790px; margin-inline: auto; text-align: center; }
+    .method-heading .section-title { max-width: 24ch; margin-inline: auto; }
+    .method-heading > p { max-width: 62ch; margin: 20px auto 0; }
+    .method-heading::after { content: ""; display: block; width: 56px; height: 3px; margin: 24px auto 0; border-radius: 3px; background: var(--blue-light); }
     .situations { padding: 0; margin: 36px 0 0; list-style: none; border-top: 1px solid var(--navy-line); }
     .situations li { display: grid; grid-template-columns: .95fr 1.45fr; gap: 40px; align-items: center; padding-block: 22px; border-bottom: 1px solid var(--navy-line); }
     .situation-heading { display: flex; align-items: center; gap: 14px; }
@@ -104,20 +107,21 @@
     .process-connector { position: absolute; top: 24px; left: calc(50% + 42px); width: calc(100% + var(--process-gap) - 84px); height: 16px; color: var(--blue-light); }
     .process-connector::before { content: ""; position: absolute; top: 7.5px; left: 0; right: 8px; height: 1px; background: currentColor; }
     .process-connector svg { position: absolute; top: 0; right: 0; width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
-    .outcome-note { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--navy-line); font-size: 15px; max-width: none; }
+    .outcome-note { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--navy-line); font-size: 15px; text-align: center; }
     .section-split { display: grid; grid-template-columns: .95fr 1.05fr; gap: clamp(36px, 6vw, 76px); }
-    .sample-copy { align-self: center; }
+    .work { background: linear-gradient(180deg, var(--white), #f7f9fd); }
+    .sample-copy { align-self: center; padding: 26px 0 26px 24px; border-left: 3px solid var(--blue); }
     .sample-copy p + p { margin-top: 15px; }
     .sample-label { display: inline-block; font-size: 14px; color: var(--muted); margin-top: 22px; }
-    .work-sample { border: 1px solid var(--line); border-radius: 4px; padding: 28px; background: var(--paper); }
+    .work-sample { border: 1px solid #c8d4e7; border-radius: 12px; padding: 28px; background: var(--white); box-shadow: 0 10px 28px rgba(16,42,67,.04); }
     .work-sample h3 { font-family: Georgia, 'Times New Roman', serif; font-size: 27px; font-weight: 400; line-height: 1.25; }
     .sample-questions { padding: 0; list-style: none; margin: 18px 0 0; counter-reset: question; }
     .sample-questions li { counter-increment: question; display: grid; grid-template-columns: 22px 1fr; gap: 12px; padding-block: 12px; border-top: 1px solid var(--line); font-size: 16px; line-height: 1.6; }
     .sample-questions li::before { content: counter(question, decimal-leading-zero); font-size: 13px; font-weight: 700; color: var(--blue); margin-top: 3px; }
     .handoff { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 2px; font-size: 15px; color: var(--muted); }
     .handoff strong { color: var(--ink); }
-    .sample-booking { margin-top: 24px; }
     .who { background: var(--paper); }
+    .who > .section-split { padding: 36px; border: 1px solid var(--line); border-radius: 14px; background: var(--white); }
     .fit-list { list-style: none; padding: 0; margin: 24px 0 0; }
     .fit-list li { display: flex; align-items: flex-start; gap: 12px; padding-block: 11px; border-bottom: 1px solid var(--line); font-size: 17px; }
     .fit-list svg { width: 20px; height: 20px; flex: 0 0 20px; color: var(--blue); margin-top: 4px; }
@@ -128,18 +132,14 @@
     .offer-heading { max-width: 700px; }
     .offer-summary { margin-top: 20px; font-size: 20px; line-height: 1.5; }
     .offer-summary strong { color: var(--blue); }
-    .commercial { display: grid; grid-template-columns: .8fr 1.2fr; gap: 38px; margin-top: 30px; padding-block: 26px; border-block: 1px solid var(--line); }
-    .management-price { font-size: 36px; letter-spacing: -1px; line-height: 1.2; margin-top: 8px; }
-    .management-price span { font-size: 18px; letter-spacing: 0; }
-    .management-detail { font-size: 16px; color: var(--muted); margin-top: 10px; max-width: 31ch; }
-    .extra-costs { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
-    .extra-costs div { display: grid; grid-template-columns: 190px 1fr; gap: 16px; }
-    .extra-costs dt { font-size: 16px; font-weight: 600; }
-    .extra-costs dd { font-size: 15px; color: var(--muted); }
-    .guarantee { margin-top: 24px; max-width: 83ch; font-size: 16px; color: var(--muted); }
+    .cta-section { background: #f7f9fd; }
+    .commitment-card { position: relative; overflow: hidden; padding: 36px; border: 1px solid #c8d4e7; border-top: 3px solid var(--blue); border-radius: 12px; background: var(--white); }
+    .commitment-card::before { content: ""; position: absolute; right: -44px; top: -44px; width: 120px; height: 120px; border: 1px solid #d7e1f5; border-radius: 50%; pointer-events: none; }
+    .guarantee { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); max-width: 83ch; font-size: 16px; color: var(--muted); }
     .guarantee strong { color: var(--ink); }
-    .faq { max-width: 850px; margin-top: 44px; }
-    .faq h3 { margin-bottom: 18px; font-size: 24px; }
+    .faq { margin-top: 32px; padding: 32px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+    .faq h3 { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; font-size: 24px; }
+    .faq h3::before { content: ""; width: 5px; height: 24px; border-radius: 4px; background: var(--blue); }
     details { border-top: 1px solid var(--line); padding-block: 10px; }
     details:last-child { border-bottom: 1px solid var(--line); }
     summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 22px; min-height: 48px; padding-block: 9px; font-size: 17px; font-weight: 600; line-height: 1.45; transition: color .18s ease; }
@@ -148,7 +148,7 @@
     details[open] summary::after { content: "−"; }
     summary:hover, details[open] summary { color: var(--blue-dark); }
     details p { margin: 8px 36px 12px 0; font-size: 16px; color: var(--muted); line-height: 1.75; max-width: 70ch; }
-    .final-close { margin-top: 48px; padding: 36px; border-left: 3px solid var(--blue); background: var(--paper); display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: center; }
+    .final-close { margin-top: 32px; padding: 36px; border: 1px solid #c8d4e7; border-left: 4px solid var(--blue); border-radius: 12px; background: radial-gradient(circle at 100% 0, transparent 72px, #dce5f8 73px, #dce5f8 74px, transparent 75px), var(--white); display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: center; }
     .final-close h3 { font-size: clamp(28px, 3vw, 36px); line-height: 1.16; letter-spacing: -.035em; }
     .call-topics { color: var(--muted); padding-left: 20px; margin: 18px 0 0; font-size: 17px; }
     .call-topics li + li { margin-top: 5px; }
@@ -159,20 +159,20 @@
     @media (max-width: 1000px) {
       .hero-grid { grid-template-columns: minmax(0,1.2fr) minmax(0,.8fr); gap: 32px; }
       .hero .eyebrow { font-size: 12px; letter-spacing: .6px; }
-      .extra-costs div { grid-template-columns: 1fr; gap: 2px; }
+      .role-line { flex-direction: column; align-items: center; text-align: center; }
+      .role-line span + span { padding-left: 0; border-left: 0; }
       .final-close { grid-template-columns: 1fr; gap: 24px; }
     }
     @media (max-width: 800px) {
       :root { --gutter: 24px; --section-space: 60px; }
-      .hero-grid, .section-split, .method-heading, .commercial { grid-template-columns: 1fr; gap: 30px; }
+      .hero-grid, .section-split { grid-template-columns: 1fr; gap: 30px; }
       .hero-content { max-width: 620px; }
       .hero { padding-top: 40px; }
-      h1 { max-width: 16ch; font-size: clamp(40px, 7.5vw, 54px); }
+      h1 { font-size: clamp(40px, 7.5vw, 54px); }
       .hero-portrait { max-width: 300px; justify-self: center; }
       .portrait-frame { aspect-ratio: 1 / 1.05; }
       .portrait-frame img { object-position: center 44%; }
       .hero-portrait figcaption { text-align: center; }
-      .method-heading { gap: 20px; }
       .situations li { grid-template-columns: 1fr 1.25fr; gap: 26px; }
       .process { grid-template-columns: 1fr; gap: 28px; }
       .process li { display: grid; grid-template-columns: 64px 1fr; gap: 20px; align-items: center; min-height: 64px; text-align: left; }
@@ -180,24 +180,21 @@
       .process strong { margin: 0; max-width: none; }
       .process-connector { left: 24px; top: calc(100% + 6px); width: 16px; transform: rotate(90deg); }
       .founder { padding-left: 0; padding-top: 28px; border-left: 0; border-top: 1px solid var(--line); }
-      .extra-costs div { grid-template-columns: 190px 1fr; gap: 16px; }
-      .commercial { gap: 24px; }
     }
     @media (max-width: 540px) {
       :root { --gutter: 20px; --section-space: 52px; }
       body { font-size: 17px; }
       .masthead { padding-block: 22px; }
       .wordmark { font-size: 19px; }
-      .header-booking { display: none; }
       .hero { padding-top: 32px; padding-bottom: 30px; }
       .hero .eyebrow { font-size: 12px; letter-spacing: .6px; }
       h1 { font-size: clamp(36px, 9.6vw, 48px); letter-spacing: -.045em; }
       h2 { font-size: 32px; }
-      .hero-offer { font-size: 20px; }
+      .headline-window { font-size: 25px; }
       .booking-button { width: 100%; padding-inline: 16px; gap: 12px; font-size: 15px; }
       .hero-portrait { max-width: 280px; }
       .hero-grid { gap: 28px; }
-      .role-line { gap: 6px; margin-top: 26px; font-size: 14px; }
+      .role-line { gap: 7px; margin-top: 28px; padding: 16px 12px; font-size: 14px; text-align: center; }
       .role-line span { flex-basis: 100%; }
       .role-line span + span { padding-left: 0; border-left: 0; }
       .situations li { grid-template-columns: 1fr; gap: 7px; padding-block: 18px; }
@@ -207,8 +204,11 @@
       .process li { gap: 16px; }
       .process strong { font-size: 16px; }
       .work-sample { padding: 22px; }
+      .sample-copy { padding: 16px 0 16px 18px; }
+      .who > .section-split { padding: 24px 20px; }
+      .commitment-card { padding: 26px 22px; }
+      .faq { padding: 24px 20px; }
       .sample-questions li { font-size: 16px; }
-      .extra-costs div { grid-template-columns: 1fr; gap: 2px; }
       .final-close { padding: 24px 20px; }
       .guarantee, details p { font-size: 16px; }
       .faq { margin-top: 36px; }
@@ -219,11 +219,11 @@
       .booking-button:hover, .booking-button:active { transform: none; }
     }
     @media print {
-      .header-booking, .booking-button, .media, .skip-link { display: none !important; }
+      .booking-button, .media, .skip-link { display: none !important; }
       body, .section, .what, .work-sample, .final-close { background: white; color: black; }
       .what p, .what .eyebrow, .process span { color: #333; }
       .section { padding-block: 28px; }
-      .hero-grid, .section-split, .method-heading, .commercial, .final-close { grid-template-columns: 1fr; gap: 24px; }
+      .hero-grid, .section-split, .final-close { grid-template-columns: 1fr; gap: 24px; }
       .hero-portrait { max-width: 190px; justify-self: start; }
       .scroll-reveal.in-view { animation: none; }
     }
@@ -233,7 +233,6 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="container masthead" aria-label="Ahmad Hussain">
     <p class="wordmark">Ahmad Hussain</p>
-    <a class="booking-button header-booking" data-booking-link href="https://calendly.com/imhussain00112/free-growth-strategy-call">Book an intake review</a>
   </header>
 
   <main id="main" tabindex="-1">
@@ -242,12 +241,11 @@
       <div class="hero-grid">
         <div class="hero-content">
           <p class="eyebrow">For independent Canadian training providers</p>
-          <h1 id="hero-title">More qualified enquiries for your next intake.</h1>
+          <h1 id="hero-title"><span class="headline-main"><span class="headline-number">30</span> unique qualified course enquiries</span> <span class="headline-window">within <strong>15 live advertising days</strong></span></h1>
           <p class="hero-copy">I connect Meta Ads, course qualification and admissions follow-up, so your team can focus on suitable prospective students and see which enquiries become enrolments.</p>
-          <p class="hero-offer"><span>Pilot commitment</span><strong>30 unique qualified course enquiries</strong> within <strong>15 live advertising days.</strong></p>
           <div class="hero-booking">
             <a id="hero-booking-button" class="booking-button" data-booking-link href="https://calendly.com/imhussain00112/free-growth-strategy-call" aria-describedby="hero-booking-state">Book a 20-minute intake review<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-            <p id="hero-booking-state" class="booking-state">Review your courses, available seats and pilot fit.</p>
+            <p id="hero-booking-state" class="booking-state">Review your courses, available seats and fit.</p>
           </div>
           <p class="scope-line">One agreed course and intake. Scope and advertising budget confirmed before launch.</p>
         </div>
@@ -256,7 +254,7 @@
           <figcaption><strong>Ahmad Hussain</strong> · Founder of Visionary Co.</figcaption>
         </figure>
       </div>
-      <p class="role-line" aria-label="Professional context"><span>Meta Ads practitioner</span><span>Social media marketing instructor</span></p>
+      <p class="role-line" aria-label="Professional context"><span>Meta Ads expert</span><span>Founder, Visionaryco / Visionaryskills</span><span>Digital marketing instructor</span></p>
 
       <!-- Optional early video insertion point. No provider request until play. -->
       <section id="intro-video" class="media" aria-labelledby="video-title" hidden>
@@ -264,7 +262,7 @@
         <p class="media-intro">The course, the enquiry and the admissions handoff: how the pieces fit together.</p>
         <div id="video-shell" class="video-shell">
           <img id="video-poster" class="video-poster" alt="" hidden>
-          <button id="video-play" class="video-play" type="button"><span class="play-triangle" aria-hidden="true"></span>Watch Ahmad explain the pilot</button>
+          <button id="video-play" class="video-play" type="button"><span class="play-triangle" aria-hidden="true"></span>Watch Ahmad explain the approach</button>
         </div>
         <details id="video-transcript-details" hidden><summary>Read the video transcript</summary><p id="video-transcript" class="video-transcript"></p></details>
       </section>
@@ -302,7 +300,6 @@
           <p class="eyebrow">A look at the approach</p>
           <h2 id="work-title" class="section-title">Ads shaped by admissions feedback.</h2>
           <p class="section-intro">What students ask or object to tells me what the next ad or follow-up needs to clarify: tuition, prerequisites, course content or intake dates.</p>
-          <div class="sample-booking"><a class="booking-button" data-booking-link href="https://calendly.com/imhussain00112/free-growth-strategy-call">Book a 20-minute intake review</a></div>
         </div>
         <aside class="work-sample" aria-labelledby="sample-title" data-reveal>
           <h3 id="sample-title">Before the admissions conversation</h3>
@@ -330,7 +327,7 @@
             <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A feasible advertising budget.</span></li>
             <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A named person handling admissions follow-up.</span></li>
           </ul>
-          <p class="fit-note">I review course economics and budget with you before recommending a pilot. Additional courses are scoped separately.</p>
+          <p class="fit-note">I review course economics and budget with you before recommending an approach. Additional courses are scoped separately.</p>
         </div>
         <div class="founder" data-reveal>
           <p class="eyebrow">Working with me</p>
@@ -344,37 +341,24 @@
     <!-- 5. Transparent commercial scope, answers and one final next step. -->
     <section class="section cta-section" aria-labelledby="offer-title">
       <div class="container">
-        <div class="offer-heading" data-reveal>
-          <p class="eyebrow">The course-enquiry pilot</p>
-          <h2 id="offer-title" class="section-title">A focused pilot.<br>A clear commitment.</h2>
+        <div class="commitment-card" data-reveal>
+        <div class="offer-heading">
+          <p class="eyebrow">The course-enquiry commitment</p>
+          <h2 id="offer-title" class="section-title">A clear commitment.<br>A focused approach.</h2>
           <p class="offer-summary"><strong>30 unique qualified course enquiries</strong> in <strong>15 live advertising days</strong>, for one agreed course and intake.</p>
         </div>
-        <div class="commercial" data-reveal>
-          <div>
-            <h3>Management</h3>
-            <p class="management-price"><span>CAD</span>650</p>
-            <p class="management-detail">Payable at launch. Covers the first 30 live advertising days.</p>
-          </div>
-          <div>
-            <h3>Setup, advertising and software are separate.</h3>
-            <dl class="extra-costs" aria-label="Additional pilot costs in Canadian dollars">
-              <div><dt>Setup · CAD500</dt><dd>Payable at onboarding.</dd></div>
-              <div><dt>Advertising · CAD2,000</dt><dd>Separate media budget. Coverage period confirmed before launch.</dd></div>
-              <div><dt>Software · CAD150</dt><dd>Estimated separate allowance. Tools and coverage confirmed before launch.</dd></div>
-            </dl>
-          </div>
+        <p class="guarantee"><strong>The management-fee guarantee:</strong> if fewer than 30 unique qualified enquiries are delivered within the agreed 15 live advertising days under the agreed conditions, I refund the management fee. Completed setup, actual advertising spend and software charges remain payable. No renewal is required.</p>
         </div>
-        <p class="guarantee"><strong>The management-fee guarantee:</strong> if fewer than 30 unique qualified enquiries are delivered within the agreed 15 live advertising days under the pilot conditions, I refund the CAD650 management fee. Completed setup, actual advertising spend and software charges remain payable. No renewal is required.</p>
 
         <div class="faq" aria-labelledby="faq-title">
           <h3 id="faq-title">Before you book</h3>
           <details><summary>What counts as a qualified enquiry?</summary><p>We agree qualification and its confirmation method before launch: a unique, contactable prospective student interested in the agreed course and intake, meeting relevant location and entry requirements, who has reviewed tuition and schedule. A form alone is insufficient. Duplicates, bots, job applicants and existing active enquiries are excluded. Tuition awareness is not financing approval.</p></details>
           <details><summary>Are enquiries the same as paid enrolments?</summary><p>No. Qualified enquiries are not paid enrolments, applications or booked admissions meetings. Enrolments are tracked separately; profit and recovery of advertising spend are not guaranteed.</p></details>
-          <details><summary>Do you work with one course or several?</summary><p>The pilot covers one agreed course and intake. Additional courses are scoped separately before launch.</p></details>
+          <details><summary>Do you work with one course or several?</summary><p>The service covers one agreed course and intake. Additional courses are scoped separately before launch.</p></details>
           <details><summary>Who contacts interested students?</summary><p>Your nominated admissions contact handles conversations, eligibility decisions and closing. I support routing, consent-based email follow-up, consultation reminders and tracking.</p></details>
           <details><summary>How do the 15-day target and 30-day management period relate?</summary><p>The target covers the first 15 live advertising days after campaign launch, following setup. Management covers 30 live advertising days. Neither window starts with payment.</p></details>
-          <details><summary>What does CAD650 cover, and what is separate?</summary><p>CAD650 covers advertising strategy, qualification, follow-up support and reporting for 30 live advertising days. Setup (CAD500), media (CAD2,000) and estimated software (CAD150) are separate. Media and software coverage periods are confirmed before launch.</p></details>
-          <details><summary>What happens if the enquiry target is missed?</summary><p>Under the agreed pilot conditions, missing the 30-qualified-enquiry target in 15 live advertising days triggers a CAD650 management-fee refund. Completed setup, actual advertising spend and software remain payable; no renewal is required. Measurement, interruption and refund procedures are agreed before launch.</p></details>
+          <details><summary>What does the service include?</summary><p>Advertising strategy, course qualification, admissions routing, follow-up support and reporting. Management covers 30 live advertising days. We agree scope with you before launch.</p></details>
+          <details><summary>What happens if the enquiry target is missed?</summary><p>Under the agreed conditions, missing the 30-qualified-enquiry target in 15 live advertising days triggers a management-fee refund. Completed setup, actual advertising spend and software remain payable; no renewal is required. Measurement, interruption and refund procedures are agreed before launch.</p></details>
           <details><summary>What if a setup failure prevents launch?</summary><p>We agree the setup deadline before onboarding. If an agency-caused failure prevents launch by then, the setup fee and any unearned management fee are refunded. This is separate from the enquiry-target remedy.</p></details>
         </div>
 
@@ -384,13 +368,13 @@
             <ul class="call-topics">
               <li>Your courses, fees, available seats and intake timing.</li>
               <li>The path from enquiry to admissions conversation.</li>
-              <li>Whether this pilot fits your institute.</li>
+              <li>Whether this approach fits your institute.</li>
             </ul>
           </div>
           <div class="booking">
             <p class="booking-note">A 20-minute conversation. No purchase or immediate decision is required to book.</p>
             <a id="booking-button" class="booking-button" data-booking-link href="https://calendly.com/imhussain00112/free-growth-strategy-call" aria-describedby="booking-state">Book a 20-minute intake review<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-            <p id="booking-state" class="booking-state">Review your courses, available seats and pilot fit.</p>
+            <p id="booking-state" class="booking-state">Review your courses, available seats and fit.</p>
           </div>
         </div>
         <p class="closing-signature">Ahmad Hussain · Meta Ads and admissions follow-up</p>
@@ -400,7 +384,7 @@
 
   <!-- EDIT HERE: approved destinations and optional assets. Video stays hidden until configured.
        The approved portrait is embedded in the hero image; founderPhoto optionally overrides it.
-       Keep readyForLaunch false until booking, pilot scope, budgets and terms are approved.
+       Keep readyForLaunch false until booking, service scope, budgets and terms are approved.
        Images may be HTTPS URLs or embedded PNG/JPEG/WebP/GIF data URLs.
        videoEmbedUrl accepts approved Loom, YouTube privacy-mode or Vimeo embed URLs.
        No calendar, analytics, advertising pixel or video provider loads by default. -->
@@ -485,7 +469,7 @@
         byId('video-play').addEventListener('click', () => {
           const frame = document.createElement('iframe');
           frame.src = videoUrl;
-          frame.title = 'Ahmad Hussain explains the course enquiry pilot';
+          frame.title = 'Ahmad Hussain explains the course enquiry approach';
           frame.allow = 'fullscreen; encrypted-media; picture-in-picture';
           frame.referrerPolicy = 'strict-origin-when-cross-origin';
           frame.setAttribute('allowfullscreen', '');
