@@ -6,12 +6,12 @@ A founder-led course-enquiry funnel for Ahmad Hussain and independent Canadian t
 
 Open `index.html` in a browser. Preserve the Arial/Helvetica body type, Georgia example heading and embedded portrait unless a change is approved. The editable copy and styling are outside the image's base64 data.
 
-The page flows from the owner-focused hero through enquiry-to-admissions situations, an illustrative qualification workflow, a compact fit/founder section, and the commercial scope, FAQ and final call. The example is explicitly labelled as illustrative; it is not client-results evidence. No testimonials, client counts or Canadian campaign outcomes are implied.
+The page flows from the unchanged offer hero into four recognisable admissions problems, the feedback-based approach and diagram, editorial founder context beside an illustrative qualification workflow, a compact fit checklist, a navy offer/guarantee panel, neutral FAQs and a separate final booking invitation. The example is explicitly labelled as illustrative; it is not client-results evidence. No testimonials, client counts or Canadian campaign outcomes are implied.
 
 All booking placements use the supplied Calendly destination:
 `https://calendly.com/imhussain00112/free-growth-strategy-call`
 
-There are exactly two booking links: the hero and final close. Both are ordinary links and work without JavaScript. JavaScript can update both from the `funnel-settings` JSON block. If changing the approved destination, update the static fallback links as well as `bookingUrl`. Invalid configuration cannot replace the approved fallback with an unsafe URL. No header or approach booking button is present.
+There are two primary booking links (hero and final close), plus the secondary “Review my next intake” link requested in the latest brief, following the problem cards. All three are ordinary links and work without JavaScript. JavaScript can update all of them from the `funnel-settings` JSON block. If changing the approved destination, update the static fallback links as well as `bookingUrl`. Invalid configuration cannot replace the approved fallback with an unsafe URL. No header or extra approach booking button is present.
 
 ## Optional configuration
 
@@ -33,9 +33,9 @@ There are no external scripts, fonts, tracking pixels, calendar embeds or provid
 
 The commitment is 30 unique qualified course enquiries in the agreed first 15 live advertising days after launch for one course and intake. Paid enrolments, applications and booked admissions meetings are distinct. Management covers 30 live advertising days.
 
-Public pricing and the cost breakdown are removed at the user's request on 20 October 2026; fees are discussed in the meeting. The conditional management-fee guarantee is retained without a numeric fee amount, with the existing exclusions and separate setup-failure remedy. No new commercial terms or future prices are invented. The word the user asked to remove is also absent from metadata, hidden-video labels and script-generated titles.
+Public pricing and the cost breakdown remain removed at the user's request on 20 October 2026; fees are discussed in the meeting. The conditional management-fee guarantee is retained verbatim without a numeric fee amount, with the existing exclusions and separate setup-failure remedy. Separate setup, advertising and software costs and the refund exclusions are plainly visible beside the offer, not only inside FAQs. No new commercial terms or future prices are invented. The word the user asked to remove remains absent from metadata, hidden-video labels and script-generated titles.
 
-The main H1 is exactly “30 unique qualified course enquiries within 15 live advertising days.” The professional role line uses the user's supplied wording: Meta Ads expert; Founder, Visionaryco / Visionaryskills; Digital marketing instructor. These are self-described roles, not third-party certifications or evidence of Canadian campaign results.
+The main H1 is exactly “30 unique qualified course enquiries within 15 live advertising days.” The professional role line uses the user's supplied wording: Meta Ads expert; Founder, Visionaryco / Visionaryskills; Digital marketing instructor. The user explicitly confirmed founding Visionary Skills during this revision. These roles do not imply third-party certifications or Canadian campaign results.
 
 See [claim register](docs/CLAIMS.md) and [project/evidence/launch record](docs/PROJECT.md) for sources, missing evidence and review requirements.
 
@@ -45,6 +45,6 @@ The work is on `review/funnel-design-refinements`, based on the original `funnel
 
 Actual Chromium screenshots: [desktop](docs/previews/desktop.png), [mobile](docs/previews/mobile.png), [qualification example](docs/previews/qualification-example.png). These show the rendered HTML, not a generated mockup. The project record lists the final browser checks and their limits. Automated accessibility checks are not a complete accessibility certification.
 
-Second-section close-ups: [desktop process](docs/previews/process-desktop.png) and [mobile process](docs/previews/process-mobile.png). The heading and outcome note are centred; the diagram retains aligned SVG connectors and a vertical mobile flow. The portrait uses layered CSS framing without modifying image bytes. The approach, fit/founder, commitment, FAQ and final-close sections share restrained outlines and geometric accents. The current version passed 302 browser assertions, including automated accessibility scans, at eleven widths; see the latest project record.
+Section close-ups: [desktop problems](docs/previews/problems-desktop.png), [mobile problems](docs/previews/problems-mobile.png), [desktop approach](docs/previews/approach-desktop.png) and [mobile approach](docs/previews/approach-mobile.png). The navy section uses a subtle static gradient/line texture, lighter cards and outline icons without checkmarks. The diagram now follows the three improvement points on a light approach surface; its aligned connectors and vertical mobile flow are retained. Distinct section surfaces replace repeated white-card wrappers. The current version passed 410 browser assertions, including automated accessibility scans, at eleven widths; see the latest project record.
 
 No merge, production deployment, Vercel protection change or indexing activation is performed. For an eventual static Vercel deployment, the existing settings remain: Other framework, repository root, no install/build command, output `.`. Publication requires separate instruction. A direct Calendly check is blocked by the environment proxy; navigation can be tested without creating an appointment. Actual Loom playback remains untestable until a genuine URL is supplied.
