@@ -1,0 +1,1238 @@
+{
+  "date": "2026-10-22",
+  "html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96",
+  "assertion_count": 540,
+  "assertions": [
+    "Balanced HTML element nesting",
+    "Unique IDs and valid ARIA/anchor/control references",
+    "Portrait bytes unchanged",
+    "Portrait decodes at reserved 731 x 1280 dimensions",
+    "Original font families retained",
+    "Approved guarantee preserved verbatim",
+    "Existing configuration preserved",
+    "No pilot word or public price added",
+    "320px: no horizontal overflow",
+    "320px: H1 and eight sections retained",
+    "320px: exact approved offer",
+    "320px: four booking links use exact supplied URL",
+    "320px: four useful navigation destinations",
+    "320px: focusable real navigation headings",
+    "320px: portrait fully loaded without filter",
+    "320px: missing video remains hidden",
+    "320px: enquiries distinguished from enrolments",
+    "320px: sticky opaque header and measured offset",
+    "320px: smooth native anchor navigation",
+    "320px: header remains in viewport",
+    "320px: compact mobile / single-row desktop",
+    "320px: no layout shift on hero entrance",
+    "320px: four coordinated immediately-readable hero entrances",
+    "320px: no scripts errors or automatic external requests",
+    "320px: axe WCAG A/AA closed-header scan",
+    "320px: mobile expanded state and first-link focus",
+    "320px: mobile menu targets at least 44px",
+    "320px: mobile open menu remains within viewport",
+    "320px: axe WCAG A/AA open-menu scan",
+    "320px: Escape closes and restores toggle focus",
+    "320px: all one-time reveal targets reached and completed",
+    "320px: process animation completed",
+    "320px: no overflow after all motion",
+    "320px: diagram connectors centered horizontally or vertically",
+    "320px: problems-title anchor clears sticky header",
+    "320px: problems-title active navigation and heading focus",
+    "320px: problems-title selection closes menu",
+    "320px: approach-title anchor clears sticky header",
+    "320px: approach-title active navigation and heading focus",
+    "320px: approach-title selection closes menu",
+    "320px: who-title anchor clears sticky header",
+    "320px: who-title active navigation and heading focus",
+    "320px: who-title selection closes menu",
+    "320px: faq-title anchor clears sticky header",
+    "320px: faq-title active navigation and heading focus",
+    "320px: faq-title selection closes menu",
+    "320px: scrolled header gains defined border/shadow",
+    "320px: wordmark returns to top and clears section active state",
+    "360px: no horizontal overflow",
+    "360px: H1 and eight sections retained",
+    "360px: exact approved offer",
+    "360px: four booking links use exact supplied URL",
+    "360px: four useful navigation destinations",
+    "360px: focusable real navigation headings",
+    "360px: portrait fully loaded without filter",
+    "360px: missing video remains hidden",
+    "360px: enquiries distinguished from enrolments",
+    "360px: sticky opaque header and measured offset",
+    "360px: smooth native anchor navigation",
+    "360px: header remains in viewport",
+    "360px: compact mobile / single-row desktop",
+    "360px: no layout shift on hero entrance",
+    "360px: four coordinated immediately-readable hero entrances",
+    "360px: no scripts errors or automatic external requests",
+    "360px: axe WCAG A/AA closed-header scan",
+    "360px: mobile expanded state and first-link focus",
+    "360px: mobile menu targets at least 44px",
+    "360px: mobile open menu remains within viewport",
+    "360px: axe WCAG A/AA open-menu scan",
+    "360px: Escape closes and restores toggle focus",
+    "360px: all one-time reveal targets reached and completed",
+    "360px: process animation completed",
+    "360px: no overflow after all motion",
+    "360px: diagram connectors centered horizontally or vertically",
+    "360px: problems-title anchor clears sticky header",
+    "360px: problems-title active navigation and heading focus",
+    "360px: problems-title selection closes menu",
+    "360px: approach-title anchor clears sticky header",
+    "360px: approach-title active navigation and heading focus",
+    "360px: approach-title selection closes menu",
+    "360px: who-title anchor clears sticky header",
+    "360px: who-title active navigation and heading focus",
+    "360px: who-title selection closes menu",
+    "360px: faq-title anchor clears sticky header",
+    "360px: faq-title active navigation and heading focus",
+    "360px: faq-title selection closes menu",
+    "360px: scrolled header gains defined border/shadow",
+    "360px: wordmark returns to top and clears section active state",
+    "390px: no horizontal overflow",
+    "390px: H1 and eight sections retained",
+    "390px: exact approved offer",
+    "390px: four booking links use exact supplied URL",
+    "390px: four useful navigation destinations",
+    "390px: focusable real navigation headings",
+    "390px: portrait fully loaded without filter",
+    "390px: missing video remains hidden",
+    "390px: enquiries distinguished from enrolments",
+    "390px: sticky opaque header and measured offset",
+    "390px: smooth native anchor navigation",
+    "390px: header remains in viewport",
+    "390px: compact mobile / single-row desktop",
+    "390px: no layout shift on hero entrance",
+    "390px: four coordinated immediately-readable hero entrances",
+    "390px: no scripts errors or automatic external requests",
+    "390px: axe WCAG A/AA closed-header scan",
+    "390px: mobile expanded state and first-link focus",
+    "390px: mobile menu targets at least 44px",
+    "390px: mobile open menu remains within viewport",
+    "390px: axe WCAG A/AA open-menu scan",
+    "390px: Escape closes and restores toggle focus",
+    "390px: all one-time reveal targets reached and completed",
+    "390px: process animation completed",
+    "390px: no overflow after all motion",
+    "390px: diagram connectors centered horizontally or vertically",
+    "390px: problems-title anchor clears sticky header",
+    "390px: problems-title active navigation and heading focus",
+    "390px: problems-title selection closes menu",
+    "390px: approach-title anchor clears sticky header",
+    "390px: approach-title active navigation and heading focus",
+    "390px: approach-title selection closes menu",
+    "390px: who-title anchor clears sticky header",
+    "390px: who-title active navigation and heading focus",
+    "390px: who-title selection closes menu",
+    "390px: faq-title anchor clears sticky header",
+    "390px: faq-title active navigation and heading focus",
+    "390px: faq-title selection closes menu",
+    "390px: scrolled header gains defined border/shadow",
+    "390px: wordmark returns to top and clears section active state",
+    "430px: no horizontal overflow",
+    "430px: H1 and eight sections retained",
+    "430px: exact approved offer",
+    "430px: four booking links use exact supplied URL",
+    "430px: four useful navigation destinations",
+    "430px: focusable real navigation headings",
+    "430px: portrait fully loaded without filter",
+    "430px: missing video remains hidden",
+    "430px: enquiries distinguished from enrolments",
+    "430px: sticky opaque header and measured offset",
+    "430px: smooth native anchor navigation",
+    "430px: header remains in viewport",
+    "430px: compact mobile / single-row desktop",
+    "430px: no layout shift on hero entrance",
+    "430px: four coordinated immediately-readable hero entrances",
+    "430px: no scripts errors or automatic external requests",
+    "430px: axe WCAG A/AA closed-header scan",
+    "430px: mobile expanded state and first-link focus",
+    "430px: mobile menu targets at least 44px",
+    "430px: mobile open menu remains within viewport",
+    "430px: axe WCAG A/AA open-menu scan",
+    "430px: Escape closes and restores toggle focus",
+    "430px: all one-time reveal targets reached and completed",
+    "430px: process animation completed",
+    "430px: no overflow after all motion",
+    "430px: diagram connectors centered horizontally or vertically",
+    "430px: problems-title anchor clears sticky header",
+    "430px: problems-title active navigation and heading focus",
+    "430px: problems-title selection closes menu",
+    "430px: approach-title anchor clears sticky header",
+    "430px: approach-title active navigation and heading focus",
+    "430px: approach-title selection closes menu",
+    "430px: who-title anchor clears sticky header",
+    "430px: who-title active navigation and heading focus",
+    "430px: who-title selection closes menu",
+    "430px: faq-title anchor clears sticky header",
+    "430px: faq-title active navigation and heading focus",
+    "430px: faq-title selection closes menu",
+    "430px: scrolled header gains defined border/shadow",
+    "430px: wordmark returns to top and clears section active state",
+    "540px: no horizontal overflow",
+    "540px: H1 and eight sections retained",
+    "540px: exact approved offer",
+    "540px: four booking links use exact supplied URL",
+    "540px: four useful navigation destinations",
+    "540px: focusable real navigation headings",
+    "540px: portrait fully loaded without filter",
+    "540px: missing video remains hidden",
+    "540px: enquiries distinguished from enrolments",
+    "540px: sticky opaque header and measured offset",
+    "540px: smooth native anchor navigation",
+    "540px: header remains in viewport",
+    "540px: compact mobile / single-row desktop",
+    "540px: no layout shift on hero entrance",
+    "540px: four coordinated immediately-readable hero entrances",
+    "540px: no scripts errors or automatic external requests",
+    "540px: axe WCAG A/AA closed-header scan",
+    "540px: mobile expanded state and first-link focus",
+    "540px: mobile menu targets at least 44px",
+    "540px: mobile open menu remains within viewport",
+    "540px: axe WCAG A/AA open-menu scan",
+    "540px: Escape closes and restores toggle focus",
+    "540px: all one-time reveal targets reached and completed",
+    "540px: process animation completed",
+    "540px: no overflow after all motion",
+    "540px: diagram connectors centered horizontally or vertically",
+    "540px: problems-title anchor clears sticky header",
+    "540px: problems-title active navigation and heading focus",
+    "540px: problems-title selection closes menu",
+    "540px: approach-title anchor clears sticky header",
+    "540px: approach-title active navigation and heading focus",
+    "540px: approach-title selection closes menu",
+    "540px: who-title anchor clears sticky header",
+    "540px: who-title active navigation and heading focus",
+    "540px: who-title selection closes menu",
+    "540px: faq-title anchor clears sticky header",
+    "540px: faq-title active navigation and heading focus",
+    "540px: faq-title selection closes menu",
+    "540px: scrolled header gains defined border/shadow",
+    "540px: wordmark returns to top and clears section active state",
+    "768px: no horizontal overflow",
+    "768px: H1 and eight sections retained",
+    "768px: exact approved offer",
+    "768px: four booking links use exact supplied URL",
+    "768px: four useful navigation destinations",
+    "768px: focusable real navigation headings",
+    "768px: portrait fully loaded without filter",
+    "768px: missing video remains hidden",
+    "768px: enquiries distinguished from enrolments",
+    "768px: sticky opaque header and measured offset",
+    "768px: smooth native anchor navigation",
+    "768px: header remains in viewport",
+    "768px: compact mobile / single-row desktop",
+    "768px: no layout shift on hero entrance",
+    "768px: four coordinated immediately-readable hero entrances",
+    "768px: no scripts errors or automatic external requests",
+    "768px: axe WCAG A/AA closed-header scan",
+    "768px: mobile expanded state and first-link focus",
+    "768px: mobile menu targets at least 44px",
+    "768px: mobile open menu remains within viewport",
+    "768px: axe WCAG A/AA open-menu scan",
+    "768px: Escape closes and restores toggle focus",
+    "768px: all one-time reveal targets reached and completed",
+    "768px: process animation completed",
+    "768px: no overflow after all motion",
+    "768px: diagram connectors centered horizontally or vertically",
+    "768px: problems-title anchor clears sticky header",
+    "768px: problems-title active navigation and heading focus",
+    "768px: problems-title selection closes menu",
+    "768px: approach-title anchor clears sticky header",
+    "768px: approach-title active navigation and heading focus",
+    "768px: approach-title selection closes menu",
+    "768px: who-title anchor clears sticky header",
+    "768px: who-title active navigation and heading focus",
+    "768px: who-title selection closes menu",
+    "768px: faq-title anchor clears sticky header",
+    "768px: faq-title active navigation and heading focus",
+    "768px: faq-title selection closes menu",
+    "768px: scrolled header gains defined border/shadow",
+    "768px: wordmark returns to top and clears section active state",
+    "960px: no horizontal overflow",
+    "960px: H1 and eight sections retained",
+    "960px: exact approved offer",
+    "960px: four booking links use exact supplied URL",
+    "960px: four useful navigation destinations",
+    "960px: focusable real navigation headings",
+    "960px: portrait fully loaded without filter",
+    "960px: missing video remains hidden",
+    "960px: enquiries distinguished from enrolments",
+    "960px: sticky opaque header and measured offset",
+    "960px: smooth native anchor navigation",
+    "960px: header remains in viewport",
+    "960px: compact mobile / single-row desktop",
+    "960px: no layout shift on hero entrance",
+    "960px: four coordinated immediately-readable hero entrances",
+    "960px: no scripts errors or automatic external requests",
+    "960px: axe WCAG A/AA closed-header scan",
+    "960px: mobile expanded state and first-link focus",
+    "960px: mobile menu targets at least 44px",
+    "960px: mobile open menu remains within viewport",
+    "960px: axe WCAG A/AA open-menu scan",
+    "960px: Escape closes and restores toggle focus",
+    "960px: all one-time reveal targets reached and completed",
+    "960px: process animation completed",
+    "960px: no overflow after all motion",
+    "960px: diagram connectors centered horizontally or vertically",
+    "960px: problems-title anchor clears sticky header",
+    "960px: problems-title active navigation and heading focus",
+    "960px: problems-title selection closes menu",
+    "960px: approach-title anchor clears sticky header",
+    "960px: approach-title active navigation and heading focus",
+    "960px: approach-title selection closes menu",
+    "960px: who-title anchor clears sticky header",
+    "960px: who-title active navigation and heading focus",
+    "960px: who-title selection closes menu",
+    "960px: faq-title anchor clears sticky header",
+    "960px: faq-title active navigation and heading focus",
+    "960px: faq-title selection closes menu",
+    "960px: scrolled header gains defined border/shadow",
+    "960px: wordmark returns to top and clears section active state",
+    "961px: no horizontal overflow",
+    "961px: H1 and eight sections retained",
+    "961px: exact approved offer",
+    "961px: four booking links use exact supplied URL",
+    "961px: four useful navigation destinations",
+    "961px: focusable real navigation headings",
+    "961px: portrait fully loaded without filter",
+    "961px: missing video remains hidden",
+    "961px: enquiries distinguished from enrolments",
+    "961px: sticky opaque header and measured offset",
+    "961px: smooth native anchor navigation",
+    "961px: header remains in viewport",
+    "961px: compact mobile / single-row desktop",
+    "961px: no layout shift on hero entrance",
+    "961px: four coordinated immediately-readable hero entrances",
+    "961px: no scripts errors or automatic external requests",
+    "961px: axe WCAG A/AA closed-header scan",
+    "961px: all one-time reveal targets reached and completed",
+    "961px: process animation completed",
+    "961px: no overflow after all motion",
+    "961px: diagram connectors centered horizontally or vertically",
+    "961px: problems-title anchor clears sticky header",
+    "961px: problems-title active navigation and heading focus",
+    "961px: approach-title anchor clears sticky header",
+    "961px: approach-title active navigation and heading focus",
+    "961px: who-title anchor clears sticky header",
+    "961px: who-title active navigation and heading focus",
+    "961px: faq-title anchor clears sticky header",
+    "961px: faq-title active navigation and heading focus",
+    "961px: scrolled header gains defined border/shadow",
+    "961px: wordmark returns to top and clears section active state",
+    "1024px: no horizontal overflow",
+    "1024px: H1 and eight sections retained",
+    "1024px: exact approved offer",
+    "1024px: four booking links use exact supplied URL",
+    "1024px: four useful navigation destinations",
+    "1024px: focusable real navigation headings",
+    "1024px: portrait fully loaded without filter",
+    "1024px: missing video remains hidden",
+    "1024px: enquiries distinguished from enrolments",
+    "1024px: sticky opaque header and measured offset",
+    "1024px: smooth native anchor navigation",
+    "1024px: header remains in viewport",
+    "1024px: compact mobile / single-row desktop",
+    "1024px: no layout shift on hero entrance",
+    "1024px: four coordinated immediately-readable hero entrances",
+    "1024px: no scripts errors or automatic external requests",
+    "1024px: axe WCAG A/AA closed-header scan",
+    "1024px: all one-time reveal targets reached and completed",
+    "1024px: process animation completed",
+    "1024px: no overflow after all motion",
+    "1024px: diagram connectors centered horizontally or vertically",
+    "1024px: problems-title anchor clears sticky header",
+    "1024px: problems-title active navigation and heading focus",
+    "1024px: approach-title anchor clears sticky header",
+    "1024px: approach-title active navigation and heading focus",
+    "1024px: who-title anchor clears sticky header",
+    "1024px: who-title active navigation and heading focus",
+    "1024px: faq-title anchor clears sticky header",
+    "1024px: faq-title active navigation and heading focus",
+    "1024px: scrolled header gains defined border/shadow",
+    "1024px: wordmark returns to top and clears section active state",
+    "1440px: no horizontal overflow",
+    "1440px: H1 and eight sections retained",
+    "1440px: exact approved offer",
+    "1440px: four booking links use exact supplied URL",
+    "1440px: four useful navigation destinations",
+    "1440px: focusable real navigation headings",
+    "1440px: portrait fully loaded without filter",
+    "1440px: missing video remains hidden",
+    "1440px: enquiries distinguished from enrolments",
+    "1440px: sticky opaque header and measured offset",
+    "1440px: smooth native anchor navigation",
+    "1440px: header remains in viewport",
+    "1440px: compact mobile / single-row desktop",
+    "1440px: no layout shift on hero entrance",
+    "1440px: four coordinated immediately-readable hero entrances",
+    "1440px: no scripts errors or automatic external requests",
+    "1440px: axe WCAG A/AA closed-header scan",
+    "1440px: all one-time reveal targets reached and completed",
+    "1440px: process animation completed",
+    "1440px: no overflow after all motion",
+    "1440px: diagram connectors centered horizontally or vertically",
+    "1440px: problems-title anchor clears sticky header",
+    "1440px: problems-title active navigation and heading focus",
+    "1440px: approach-title anchor clears sticky header",
+    "1440px: approach-title active navigation and heading focus",
+    "1440px: who-title anchor clears sticky header",
+    "1440px: who-title active navigation and heading focus",
+    "1440px: faq-title anchor clears sticky header",
+    "1440px: faq-title active navigation and heading focus",
+    "1440px: scrolled header gains defined border/shadow",
+    "1440px: wordmark returns to top and clears section active state",
+    "1920px: no horizontal overflow",
+    "1920px: H1 and eight sections retained",
+    "1920px: exact approved offer",
+    "1920px: four booking links use exact supplied URL",
+    "1920px: four useful navigation destinations",
+    "1920px: focusable real navigation headings",
+    "1920px: portrait fully loaded without filter",
+    "1920px: missing video remains hidden",
+    "1920px: enquiries distinguished from enrolments",
+    "1920px: sticky opaque header and measured offset",
+    "1920px: smooth native anchor navigation",
+    "1920px: header remains in viewport",
+    "1920px: compact mobile / single-row desktop",
+    "1920px: no layout shift on hero entrance",
+    "1920px: four coordinated immediately-readable hero entrances",
+    "1920px: no scripts errors or automatic external requests",
+    "1920px: axe WCAG A/AA closed-header scan",
+    "1920px: all one-time reveal targets reached and completed",
+    "1920px: process animation completed",
+    "1920px: no overflow after all motion",
+    "1920px: diagram connectors centered horizontally or vertically",
+    "1920px: problems-title anchor clears sticky header",
+    "1920px: problems-title active navigation and heading focus",
+    "1920px: approach-title anchor clears sticky header",
+    "1920px: approach-title active navigation and heading focus",
+    "1920px: who-title anchor clears sticky header",
+    "1920px: who-title active navigation and heading focus",
+    "1920px: faq-title anchor clears sticky header",
+    "1920px: faq-title active navigation and heading focus",
+    "1920px: scrolled header gains defined border/shadow",
+    "1920px: wordmark returns to top and clears section active state",
+    "Skip link receives first keyboard focus",
+    "Skip link reaches main",
+    "Enter opens mobile menu and focuses first link",
+    "Space opens mobile menu",
+    "Menu keyboard order link 2",
+    "Menu keyboard order link 3",
+    "Menu keyboard order link 4",
+    "Menu keyboard order reaches booking with visible focus",
+    "Nonmodal menu lets Tab leave and closes without stealing focus",
+    "Touch opens mobile menu",
+    "Outside pointer closes menu without leaving focus in hidden navigation",
+    "Open menu becomes desktop nav without hidden focused content",
+    "Desktop to mobile restores focus to toggle and collapses menu",
+    "Short landscape dropdown scrolls within screen",
+    "Short landscape booking can scroll into menu view",
+    "Dropdown does not lock page scrolling",
+    "390px: booking 1 keyboard focus visible",
+    "390px: booking 1 navigates exact real URL",
+    "390px: booking 2 keyboard focus visible",
+    "390px: booking 2 navigates exact real URL",
+    "390px: booking 3 keyboard focus visible",
+    "390px: booking 3 navigates exact real URL",
+    "390px: booking 4 keyboard focus visible",
+    "390px: booking 4 navigates exact real URL",
+    "1440px: booking 1 keyboard focus visible",
+    "1440px: booking 1 navigates exact real URL",
+    "1440px: booking 2 keyboard focus visible",
+    "1440px: booking 2 navigates exact real URL",
+    "1440px: booking 3 keyboard focus visible",
+    "1440px: booking 3 navigates exact real URL",
+    "1440px: booking 4 keyboard focus visible",
+    "1440px: booking 4 navigates exact real URL",
+    "Four problem cards reveal once with 80ms paired stagger",
+    "Process animates four icon steps, four labels and three connectors",
+    "Connector animation runs sequentially",
+    "Completed process and problem cards do not replay",
+    "Ambient motion runs gently while navy section visible",
+    "Pause control stops actual ambient transform",
+    "Resume control restarts ambient motion",
+    "Offscreen ambient animation is paused",
+    "Dynamic reduced motion disables ambient and smooth scrolling",
+    "Reduced-motion process and content fully visible without transitions",
+    "Returning from reduced motion does not replay completed process",
+    "Motion control has accessible focus and touch target",
+    "Reduced-motion load has no hero/reveal/ambient animations",
+    "Reduced-motion anchors and menu still work",
+    "No IntersectionObserver keeps all content and navigation usable",
+    "Active navigation works without IntersectionObserver",
+    "390px: no-JavaScript nav links remain visible and toggle hidden",
+    "390px: no-JavaScript content has no overflow or hidden media",
+    "390px: no-JavaScript native anchor works",
+    "390px: no-JavaScript FAQ works",
+    "390px: no-JavaScript header booking reaches exact URL",
+    "1440px: no-JavaScript nav links remain visible and toggle hidden",
+    "1440px: no-JavaScript content has no overflow or hidden media",
+    "1440px: no-JavaScript native anchor works",
+    "1440px: no-JavaScript FAQ works",
+    "1440px: no-JavaScript header booking reaches exact URL"
+  ],
+  "widths_css_px": [
+    320,
+    360,
+    390,
+    430,
+    540,
+    768,
+    960,
+    961,
+    1024,
+    1440,
+    1920
+  ],
+  "browser": "Chromium /usr/bin/chromium via Python Playwright",
+  "axe_core": "4.14.0; WCAG 2/2.1 A/AA",
+  "booking_verification": "All four placements at desktop/mobile use intercepted exact supplied URL; no appointment created; live provider availability unverified",
+  "limitations": [
+    "Chromium only; Safari, Firefox and real devices not tested",
+    "Live Calendly event availability/duration not verified",
+    "Loom URL and canonical URL remain missing; no deployment performed"
+  ],
+  "main_suite_assertion_count": 470,
+  "supplemental_assertion_count": 70,
+  "supplemental": {
+    "html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96",
+    "checks": [
+      {
+        "name": "Manual wheel down: hero container active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "hero container",
+          "active": [],
+          "y": 0
+        }
+      },
+      {
+        "name": "Manual wheel down: section problems motion-live is-visible active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section problems motion-live is-visible",
+          "active": [
+            "#problems-title"
+          ],
+          "y": 658
+        }
+      },
+      {
+        "name": "Manual wheel down: section approach active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section approach",
+          "active": [
+            "#approach-title"
+          ],
+          "y": 1797
+        }
+      },
+      {
+        "name": "Manual wheel down: section evidence active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section evidence",
+          "active": [],
+          "y": 2745
+        }
+      },
+      {
+        "name": "Manual wheel down: unmapped section evidence clears active nav",
+        "passed": true,
+        "details": {
+          "section": "section evidence",
+          "active": [],
+          "y": 2745
+        }
+      },
+      {
+        "name": "Manual wheel down: section fit-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section fit-section",
+          "active": [
+            "#who-title"
+          ],
+          "y": 3342
+        }
+      },
+      {
+        "name": "Manual wheel down: section offer-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section offer-section",
+          "active": [],
+          "y": 3648
+        }
+      },
+      {
+        "name": "Manual wheel down: unmapped section offer-section clears active nav",
+        "passed": true,
+        "details": {
+          "section": "section offer-section",
+          "active": [],
+          "y": 3648
+        }
+      },
+      {
+        "name": "Manual wheel down: section questions active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section questions",
+          "active": [
+            "#faq-title"
+          ],
+          "y": 4360
+        }
+      },
+      {
+        "name": "Manual wheel down: section closing-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section questions",
+          "active": [
+            "#faq-title"
+          ],
+          "y": 4643
+        }
+      },
+      {
+        "name": "Manual wheel up: section closing-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section questions",
+          "active": [
+            "#faq-title"
+          ],
+          "y": 4643
+        }
+      },
+      {
+        "name": "Manual wheel up: section questions active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section questions",
+          "active": [
+            "#faq-title"
+          ],
+          "y": 4360
+        }
+      },
+      {
+        "name": "Manual wheel up: section offer-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section offer-section",
+          "active": [],
+          "y": 3648
+        }
+      },
+      {
+        "name": "Manual wheel up: unmapped section offer-section clears active nav",
+        "passed": true,
+        "details": {
+          "section": "section offer-section",
+          "active": [],
+          "y": 3648
+        }
+      },
+      {
+        "name": "Manual wheel up: section fit-section active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section fit-section",
+          "active": [
+            "#who-title"
+          ],
+          "y": 3342
+        }
+      },
+      {
+        "name": "Manual wheel up: section evidence active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section evidence",
+          "active": [],
+          "y": 2745
+        }
+      },
+      {
+        "name": "Manual wheel up: unmapped section evidence clears active nav",
+        "passed": true,
+        "details": {
+          "section": "section evidence",
+          "active": [],
+          "y": 2745
+        }
+      },
+      {
+        "name": "Manual wheel up: section approach active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section approach",
+          "active": [
+            "#approach-title"
+          ],
+          "y": 1797
+        }
+      },
+      {
+        "name": "Manual wheel up: section problems motion-live is-visible active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "section problems motion-live is-visible",
+          "active": [
+            "#problems-title"
+          ],
+          "y": 658
+        }
+      },
+      {
+        "name": "Manual wheel up: hero container active nav follows actual reading section",
+        "passed": true,
+        "details": {
+          "section": "hero container",
+          "active": [],
+          "y": 0
+        }
+      },
+      {
+        "name": "Manual scrolling leaves URL hash untouched",
+        "passed": true
+      },
+      {
+        "name": "FAQ 1: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 1: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 1: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 2: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 2: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 2: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 3: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 3: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 3: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 4: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 4: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 4: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 5: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 5: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 5: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 6: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 6: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 6: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 7: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 7: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 7: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "FAQ 8: Enter opens native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 8: Space closes native disclosure",
+        "passed": true
+      },
+      {
+        "name": "FAQ 8: focus remains on summary",
+        "passed": true
+      },
+      {
+        "name": "Whole page with all eight FAQs expanded passes automated WCAG A/AA",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "Hero first-frame fixture pauses actual CSS entrances",
+        "passed": true,
+        "details": [
+          {
+            "tag": "H1",
+            "opacity": "0.97",
+            "animations": [
+              {
+                "name": "hero-arrive",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "tag": "P",
+            "opacity": "0.97",
+            "animations": [
+              {
+                "name": "hero-arrive",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "opacity": "0.97",
+            "animations": [
+              {
+                "name": "hero-arrive",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "tag": "FIGURE",
+            "opacity": "0.97",
+            "animations": [
+              {
+                "name": "hero-arrive",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero first animation frame passes axe text contrast",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "Hero remained paused through contrast scan",
+        "passed": true,
+        "details": [
+          {
+            "opacity": "0.97",
+            "animations": [
+              "paused"
+            ]
+          },
+          {
+            "opacity": "0.97",
+            "animations": [
+              "paused"
+            ]
+          },
+          {
+            "opacity": "0.97",
+            "animations": [
+              "paused"
+            ]
+          },
+          {
+            "opacity": "0.97",
+            "animations": [
+              "paused"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Approach first-frame fixture pauses section reveal",
+        "passed": true,
+        "details": [
+          {
+            "class": "approach-heading scroll-reveal in-view",
+            "opacity": "0.95",
+            "animations": [
+              {
+                "name": "section-settle",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "class": "scroll-reveal in-view",
+            "opacity": "0.95",
+            "animations": [
+              {
+                "name": "section-settle",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "class": "scroll-reveal in-view",
+            "opacity": "0.95",
+            "animations": [
+              {
+                "name": "section-settle",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "class": "scroll-reveal in-view",
+            "opacity": "0.95",
+            "animations": [
+              {
+                "name": "section-settle",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          },
+          {
+            "class": "process-panel scroll-reveal in-view",
+            "opacity": "0.95",
+            "animations": [
+              {
+                "name": "section-settle",
+                "state": "paused",
+                "current": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Approach first animation frame passes axe text contrast",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "Ambient actual CSS animation runs while visible",
+        "passed": true,
+        "details": {
+          "hidden": false,
+          "rootHidden": false,
+          "play": "running",
+          "time": 166.5990000154674
+        }
+      },
+      {
+        "name": "Hidden visibility event pauses actual ambient CSS animation",
+        "passed": true,
+        "details": {
+          "hidden": true,
+          "rootHidden": true,
+          "play": "paused",
+          "time": 450.0330000154674
+        }
+      },
+      {
+        "name": "Hidden ambient animation timeline stops advancing",
+        "passed": true,
+        "details": {
+          "first": {
+            "hidden": true,
+            "rootHidden": true,
+            "play": "paused",
+            "time": 450.0330000154674
+          },
+          "second": {
+            "hidden": true,
+            "rootHidden": true,
+            "play": "paused",
+            "time": 450.0330000154674
+          }
+        }
+      },
+      {
+        "name": "Visible event resumes ambient CSS and timeline",
+        "passed": true,
+        "details": {
+          "first": {
+            "hidden": false,
+            "rootHidden": false,
+            "play": "running",
+            "time": 533.3899999952017
+          },
+          "second": {
+            "hidden": false,
+            "rootHidden": false,
+            "play": "running",
+            "time": 699.9919999952019
+          }
+        }
+      },
+      {
+        "name": "Visibility restoration respects user pause",
+        "passed": true,
+        "details": {
+          "hidden": false,
+          "rootHidden": false,
+          "play": "paused",
+          "time": 750.0979999952019
+        }
+      },
+      {
+        "name": "No ResizeObserver (deleted): no page errors",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "No ResizeObserver (deleted): resize fallback measures header",
+        "passed": true,
+        "details": {
+          "variable": 72,
+          "actual": 72
+        }
+      },
+      {
+        "name": "No ResizeObserver (deleted): active nav still works",
+        "passed": true
+      },
+      {
+        "name": "No ResizeObserver (undefined): no page errors",
+        "passed": true,
+        "details": []
+      },
+      {
+        "name": "No ResizeObserver (undefined): resize fallback measures header",
+        "passed": true,
+        "details": {
+          "variable": 72,
+          "actual": 72
+        }
+      },
+      {
+        "name": "No ResizeObserver (undefined): active nav still works",
+        "passed": true
+      },
+      {
+        "name": "Keyboard Tab reaches first nav link with visible 3px outline",
+        "passed": true,
+        "details": {
+          "nav": true,
+          "href": "#problems-title",
+          "focusVisible": true,
+          "outline": "solid",
+          "width": "3px",
+          "color": "rgb(44, 82, 214)",
+          "underline": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      },
+      {
+        "name": "Keyboard-focused nav link displays underline",
+        "passed": true,
+        "details": {
+          "nav": true,
+          "href": "#problems-title",
+          "focusVisible": true,
+          "outline": "solid",
+          "width": "3px",
+          "color": "rgb(44, 82, 214)",
+          "underline": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      },
+      {
+        "name": "Motion control reached through native keyboard Tab order",
+        "passed": true
+      },
+      {
+        "name": "Keyboard motion-control focus has visible light 3px outline and 44px target",
+        "passed": true,
+        "details": {
+          "id": "motion-toggle",
+          "focusVisible": true,
+          "outline": "solid",
+          "width": "3px",
+          "color": "rgb(185, 205, 255)",
+          "target": 44
+        }
+      },
+      {
+        "name": "Keyboard Enter pauses actual ambient animation and updates control label",
+        "passed": true,
+        "details": {
+          "play": "paused",
+          "label": "Resume background motion",
+          "focus": "motion-toggle"
+        }
+      },
+      {
+        "name": "Keyboard Space resumes actual ambient animation and updates control label",
+        "passed": true,
+        "details": {
+          "play": "running",
+          "label": "Pause background motion",
+          "focus": "motion-toggle"
+        }
+      },
+      {
+        "name": "Primary booking hover is restrained 1px lift with darker blue",
+        "passed": true,
+        "details": {
+          "transform": "matrix(1, 0, 0, 1, 0, -1)",
+          "background": "rgb(33, 63, 168)"
+        }
+      },
+      {
+        "name": "Primary booking pressed state moves down 1px",
+        "passed": true,
+        "details": {
+          "active": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 1)"
+        }
+      }
+    ],
+    "notes": [
+      "Headless Chromium kept document.hidden false after bringing a second tab forward. Visibility tests therefore simulated the document.hidden getter and dispatched visibilitychange; actual OS/tab backgrounding was not verified.",
+      "Natural scrolling tested both directions without anchor clicks or hash changes. Hero, evidence and offer sections correctly clear active navigation. At the page-bottom limit, the reading line remains inside FAQs even while the closing section is visible, so FAQs correctly remains active; no claim is made that closing itself crossed the reading line.",
+      "Both deleted and undefined ResizeObserver fixtures passed: no script errors, correct header remeasurement after desktop-to-mobile resize, and active-section navigation remained functional. Native browser zoom was not exercised in this supplemental run."
+    ],
+    "errors": [],
+    "passed": 70,
+    "failed": 0
+  },
+  "result": "passed",
+  "html_bytes": 109459,
+  "browser_version": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "screenshots": {
+    "docs/previews/desktop.png": {
+      "dimensions_px": [
+        1440,
+        5643
+      ],
+      "sha256": "9e72b1a46a92ab17d79725af6633d5da2be819f26b666600e5a5b35e561d2a0a",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/mobile.png": {
+      "dimensions_px": [
+        390,
+        8709
+      ],
+      "sha256": "db34e39d6da913de7905a499320c218d3ef03094e15974ccf06106513bfec6c0",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/header-desktop.png": {
+      "dimensions_px": [
+        1440,
+        900
+      ],
+      "sha256": "71e2d72cba76e6b9d7b1c479a70102de0cf1d2ecdc56b33a40e7eeda58b07699",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/header-mobile.png": {
+      "dimensions_px": [
+        390,
+        900
+      ],
+      "sha256": "3baca9fce9f2fc182a8730300e7054ba5210c7326efc027325ecb1788d901f46",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/menu-mobile.png": {
+      "dimensions_px": [
+        390,
+        900
+      ],
+      "sha256": "35874f6f156e4b63db195b25e3e10129736b42f9c525bf8c9e36e5a3de7e0b1b",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/problems-desktop.png": {
+      "dimensions_px": [
+        1440,
+        1139
+      ],
+      "sha256": "4dd2651fce1e8813ab1c22f2a05edffe3bd4c16e384e09c92bac7874f076fb9d",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/problems-mobile.png": {
+      "dimensions_px": [
+        390,
+        1942
+      ],
+      "sha256": "c77090236e5bcb7fa0693da6130197c03baa13d5dc36463447e5a38805b0baf8",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/approach-desktop.png": {
+      "dimensions_px": [
+        1440,
+        949
+      ],
+      "sha256": "44b9b0cb2ad8d47ae7676b438e336c928284dd1d0575dc08d1d2aae51db3e4c0",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/approach-mobile.png": {
+      "dimensions_px": [
+        390,
+        1588
+      ],
+      "sha256": "5a3bbbdea20cc5b96c847de61d6102c4338906c1fdf88fa07d91c7084648d6a1",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/process-desktop.png": {
+      "dimensions_px": [
+        1160,
+        308
+      ],
+      "sha256": "0e5a50e1fda8c4c43a70665720e796b7f6a437d5a6187efc6357e9787af9f368",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    },
+    "docs/previews/process-mobile.png": {
+      "dimensions_px": [
+        350,
+        561
+      ],
+      "sha256": "e12d81e49f9650e8d37e4084ab202a4d79e0b107a4d3c0c4220832c45044a89d",
+      "rendered_html_sha256": "f3c62ed7fe8b55bd3f27ae1f5505a54692d06d028e1e9188db56fa568c9d4d96"
+    }
+  }
+}
