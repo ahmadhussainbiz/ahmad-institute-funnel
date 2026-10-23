@@ -1,0 +1,125 @@
+{
+  "htmlSha256": "b7349fdc979fdb1876466f9cdc76c90f663b7c1d41e5f66b47145d3283004a4a",
+  "browser": "Headless Chromium /usr/bin/chromium",
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      1000
+    ]
+  },
+  "captureNotes": "Exact saved HTML fulfilled by Playwright routing at synthetic HTTPS URL; no external source. Reduced motion enabled for still captures. Sticky header hidden through screenshot-only CSS for section close-ups; full-page captures reset scroll to top.",
+  "screenshots": [
+    {
+      "file": "approach-desktop.png",
+      "sha256": "17e1e88a9abe9f331f19273945baacc012d1989288c4fc59da1d4d7a56a98fdc",
+      "dimensions": [
+        1440,
+        1471
+      ],
+      "bytes": 210981
+    },
+    {
+      "file": "approach-mobile.png",
+      "sha256": "5616a87b7451c79be7e41173718320f563ea08d3620e98c434e0a9a04b61e860",
+      "dimensions": [
+        390,
+        2865
+      ],
+      "bytes": 227633
+    },
+    {
+      "file": "fit-desktop.png",
+      "sha256": "af6a24bcd18574a180b5ce16e042060627f9e913068f0e6ec99cdc3da90eb6ae",
+      "dimensions": [
+        1440,
+        369
+      ],
+      "bytes": 60865
+    },
+    {
+      "file": "fit-mobile.png",
+      "sha256": "c0a9636f1037b53fa0294dbe802a2821894c2b7dcfd5bf91b94b5daa356a43a2",
+      "dimensions": [
+        390,
+        730
+      ],
+      "bytes": 56396
+    },
+    {
+      "file": "funnel-desktop.png",
+      "sha256": "af39f802cacfba72b2d5e03da31058588aa61e8d2b60cea2b7d96ad1e9d2c40b",
+      "dimensions": [
+        1440,
+        6791
+      ],
+      "bytes": 1362123
+    },
+    {
+      "file": "funnel-mobile.png",
+      "sha256": "cd87b0d38294f6933630d3d5cc7fd00ee48882a83b649f9ad68fcb6652806f1d",
+      "dimensions": [
+        390,
+        11193
+      ],
+      "bytes": 1021660
+    },
+    {
+      "file": "hero-desktop.png",
+      "sha256": "401460af3f3344fc46c1d5db4b2511e7307b39454db4f527f8ce649a6d577562",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "bytes": 337813
+    },
+    {
+      "file": "hero-mobile.png",
+      "sha256": "1bf05d914258cf0bc03d44463690ea3d6eb9102f45babd46474831449847935b",
+      "dimensions": [
+        390,
+        1000
+      ],
+      "bytes": 120588
+    },
+    {
+      "file": "offer-desktop.png",
+      "sha256": "3eab7021837fda6f2c1597f6dcf1bbffbc6ddfaeea30e5561d9d04a22cb3f9e8",
+      "dimensions": [
+        1440,
+        1257
+      ],
+      "bytes": 169187
+    },
+    {
+      "file": "offer-mobile.png",
+      "sha256": "53e1fa5952b8347fc718a83ad44c18cc84da57a73844c7b2fc3fe0b41a755530",
+      "dimensions": [
+        390,
+        1868
+      ],
+      "bytes": 164618
+    },
+    {
+      "file": "problems-desktop.png",
+      "sha256": "44a9c7d062f8faa60111392d6122c6f83980aaa89ca00fc111ed73ecc0143643",
+      "dimensions": [
+        1440,
+        1054
+      ],
+      "bytes": 493243
+    },
+    {
+      "file": "problems-mobile.png",
+      "sha256": "59e1681f2a3302726c9cccbfa7e9e650c70294149f6a3779bde4b152fb74cd1c",
+      "dimensions": [
+        390,
+        1794
+      ],
+      "bytes": 239222
+    }
+  ]
+}

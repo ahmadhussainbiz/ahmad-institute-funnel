@@ -1,0 +1,5766 @@
+{
+  "date": "2026-10-23",
+  "source": {
+    "htmlSha256": "b7349fdc979fdb1876466f9cdc76c90f663b7c1d41e5f66b47145d3283004a4a",
+    "htmlBytes": 115448,
+    "sourceCommit": "145d448d7c3407b15a7d91a5a9f7b8f42d3e1a87",
+    "reviewBranch": "review/funnel-design-refinements",
+    "checks": {
+      "portraitBytesUnchanged": true,
+      "settingsUnchanged": true,
+      "oneH1": true,
+      "uniqueIds": true,
+      "validAnchors": true,
+      "validAriaReferences": true,
+      "notForSection": true,
+      "fourBookingLinks": true,
+      "noVisibleDecorativeDashes": true,
+      "newGuaranteeOnce": true,
+      "noLegacyEnquiryTarget": true,
+      "scriptsSyntaxPassed": true,
+      "eightMainSections": true
+    }
+  },
+  "mainBrowserSuite": {
+    "htmlSha256": "b65fae753407e38934cd8b0b4b1b63e58b2c4d1e60604a21867722e6659a09b3",
+    "checks": 468,
+    "passed": 468,
+    "failed": [],
+    "widths": [
+      320,
+      360,
+      390,
+      430,
+      540,
+      768,
+      800,
+      801,
+      960,
+      961,
+      1024,
+      1440,
+      1920
+    ],
+    "browser": "Chromium /usr/bin/chromium",
+    "results": [
+      {
+        "pass": true,
+        "check": "320px initial no page horizontal overflow",
+        "detail": {
+          "width": 320,
+          "docWidth": 320,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "320px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "320px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "320px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "320px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "320px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "320px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "320px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "320px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "320px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "320px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "320px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "320px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "320px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "320px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "320px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "320px mobile cards stack"
+      },
+      {
+        "pass": true,
+        "check": "320px hero copy precedes portrait"
+      },
+      {
+        "pass": true,
+        "check": "320px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 320,
+          "docWidth": 320,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "320px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "320px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "320px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "320px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "360px initial no page horizontal overflow",
+        "detail": {
+          "width": 360,
+          "docWidth": 360,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "360px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "360px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "360px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "360px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "360px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "360px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "360px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "360px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "360px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "360px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "360px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "360px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "360px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "360px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "360px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "360px mobile cards stack"
+      },
+      {
+        "pass": true,
+        "check": "360px hero copy precedes portrait"
+      },
+      {
+        "pass": true,
+        "check": "360px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 360,
+          "docWidth": 360,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "360px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "360px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "360px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "360px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "390px initial no page horizontal overflow",
+        "detail": {
+          "width": 390,
+          "docWidth": 390,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "390px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "390px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "390px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "390px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "390px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "390px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "390px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "390px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "390px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "390px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "390px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "390px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "390px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "390px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "390px mobile cards stack"
+      },
+      {
+        "pass": true,
+        "check": "390px hero copy precedes portrait"
+      },
+      {
+        "pass": true,
+        "check": "390px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 390,
+          "docWidth": 390,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "390px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "390px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "390px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "430px initial no page horizontal overflow",
+        "detail": {
+          "width": 430,
+          "docWidth": 430,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "430px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "430px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "430px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "430px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "430px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "430px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "430px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "430px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "430px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "430px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "430px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "430px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "430px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "430px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "430px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "430px mobile cards stack"
+      },
+      {
+        "pass": true,
+        "check": "430px hero copy precedes portrait"
+      },
+      {
+        "pass": true,
+        "check": "430px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 430,
+          "docWidth": 430,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "430px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "430px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "430px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "430px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "540px initial no page horizontal overflow",
+        "detail": {
+          "width": 540,
+          "docWidth": 540,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "540px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "540px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "540px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "540px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "540px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "540px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "540px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "540px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "540px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "540px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "540px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "540px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "540px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "540px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "540px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "540px mobile cards stack"
+      },
+      {
+        "pass": true,
+        "check": "540px hero copy precedes portrait"
+      },
+      {
+        "pass": true,
+        "check": "540px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 540,
+          "docWidth": 540,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "540px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "540px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "540px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "540px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "768px initial no page horizontal overflow",
+        "detail": {
+          "width": 768,
+          "docWidth": 768,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "768px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "768px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "768px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "768px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "768px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "768px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "768px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "768px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "768px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "768px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "768px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "768px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "768px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "768px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "768px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "768px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 768,
+          "docWidth": 768,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "768px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "768px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "768px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "768px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "800px initial no page horizontal overflow",
+        "detail": {
+          "width": 800,
+          "docWidth": 800,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "800px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "800px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "800px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "800px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "800px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "800px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "800px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "800px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "800px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "800px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "800px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "800px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "800px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "800px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "800px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "800px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 800,
+          "docWidth": 800,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "800px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "800px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "800px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "800px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "801px initial no page horizontal overflow",
+        "detail": {
+          "width": 801,
+          "docWidth": 801,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "801px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "801px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "801px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "801px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "801px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "801px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "801px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "801px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "801px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "801px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "801px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "801px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "801px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "801px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "801px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "801px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "801px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "801px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "801px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 801,
+          "docWidth": 801,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "801px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "801px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "801px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "801px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "960px initial no page horizontal overflow",
+        "detail": {
+          "width": 960,
+          "docWidth": 960,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "960px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "960px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "960px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "960px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "960px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "960px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "960px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "960px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "960px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "960px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "960px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "960px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "960px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "960px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "960px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "960px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "960px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "960px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 960,
+          "docWidth": 960,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "960px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "960px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "960px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "961px initial no page horizontal overflow",
+        "detail": {
+          "width": 961,
+          "docWidth": 961,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "961px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "961px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "961px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "961px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "961px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "961px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "961px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "961px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "961px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "961px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "961px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "961px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "961px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "961px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "961px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "961px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "961px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "961px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 961,
+          "docWidth": 961,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "961px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "961px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "961px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "1024px initial no page horizontal overflow",
+        "detail": {
+          "width": 1024,
+          "docWidth": 1024,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1024px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1024px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "1024px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "1024px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "1024px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "1024px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "1024px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "1024px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1024px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1024px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1024px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1024px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1024px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1024px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1024px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1024px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "1024px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "1024px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "1024px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 1024,
+          "docWidth": 1024,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1024px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1024px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "1024px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "1024px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "1440px initial no page horizontal overflow",
+        "detail": {
+          "width": 1440,
+          "docWidth": 1440,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1440px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "1440px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "1440px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "1440px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "1440px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "1440px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "1440px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1440px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1440px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1440px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1440px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1440px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1440px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1440px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1440px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "1440px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "1440px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "1440px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 1440,
+          "docWidth": 1440,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1440px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "1440px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "1440px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "1920px initial no page horizontal overflow",
+        "detail": {
+          "width": 1920,
+          "docWidth": 1920,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1920px initial content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1920px four problem cards"
+      },
+      {
+        "pass": true,
+        "check": "1920px six approach steps"
+      },
+      {
+        "pass": true,
+        "check": "1920px paid enrolment hero"
+      },
+      {
+        "pass": true,
+        "check": "1920px exclusion navigation label"
+      },
+      {
+        "pass": true,
+        "check": "1920px existing fonts"
+      },
+      {
+        "pass": true,
+        "check": "1920px equal card padding"
+      },
+      {
+        "pass": true,
+        "check": "1920px card 1 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1920px card 1 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1920px card 2 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1920px card 2 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1920px card 3 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1920px card 3 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1920px card 4 heading-to-points gap",
+        "detail": 10.0
+      },
+      {
+        "pass": true,
+        "check": "1920px card 4 content unclipped"
+      },
+      {
+        "pass": true,
+        "check": "1920px two-column card layout"
+      },
+      {
+        "pass": true,
+        "check": "1920px pairwise point-list alignment"
+      },
+      {
+        "pass": true,
+        "check": "1920px portrait right of copy"
+      },
+      {
+        "pass": true,
+        "check": "1920px after scroll no page horizontal overflow",
+        "detail": {
+          "width": 1920,
+          "docWidth": 1920,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "1920px after scroll content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "1920px portrait loaded"
+      },
+      {
+        "pass": true,
+        "check": "1920px missing video hidden"
+      },
+      {
+        "pass": true,
+        "check": "1920px indexing stays disabled"
+      },
+      {
+        "pass": true,
+        "check": "390px closed menu aria hidden"
+      },
+      {
+        "pass": true,
+        "check": "390px closed menu inert"
+      },
+      {
+        "pass": true,
+        "check": "390px keyboard menu opens"
+      },
+      {
+        "pass": true,
+        "check": "390px opening focuses first nav link"
+      },
+      {
+        "pass": true,
+        "check": "390px Escape closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px Escape restores toggle focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title clears sticky header",
+        "detail": {
+          "target": 92.4375,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title active nav updates",
+        "detail": {
+          "target": 92.4375,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title clears sticky header",
+        "detail": {
+          "target": 92.15625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title active nav updates",
+        "detail": {
+          "target": 92.15625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for clears sticky header",
+        "detail": {
+          "target": 169.70361328125,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for active nav updates",
+        "detail": {
+          "target": 169.70361328125,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title clears sticky header",
+        "detail": {
+          "target": 95.125,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title active nav updates",
+        "detail": {
+          "target": 95.125,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px closed menu aria hidden"
+      },
+      {
+        "pass": true,
+        "check": "960px closed menu inert"
+      },
+      {
+        "pass": true,
+        "check": "960px keyboard menu opens"
+      },
+      {
+        "pass": true,
+        "check": "960px opening focuses first nav link"
+      },
+      {
+        "pass": true,
+        "check": "960px Escape closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px Escape restores toggle focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title clears sticky header",
+        "detail": {
+          "target": 91.515625,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title active nav updates",
+        "detail": {
+          "target": 91.515625,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title clears sticky header",
+        "detail": {
+          "target": 92.140625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title active nav updates",
+        "detail": {
+          "target": 92.140625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for clears sticky header",
+        "detail": {
+          "target": 91.890625,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for active nav updates",
+        "detail": {
+          "target": 91.890625,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title clears sticky header",
+        "detail": {
+          "target": 91.5,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title active nav updates",
+        "detail": {
+          "target": 91.5,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title clears sticky header",
+        "detail": {
+          "target": 99.578125,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title active nav updates",
+        "detail": {
+          "target": 99.578125,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title clears sticky header",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title active nav updates",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for clears sticky header",
+        "detail": {
+          "target": 99.953125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for active nav updates",
+        "detail": {
+          "target": 99.953125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title clears sticky header",
+        "detail": {
+          "target": 99.5625,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title active nav updates",
+        "detail": {
+          "target": 99.5625,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title clears sticky header",
+        "detail": {
+          "target": 99.625,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title active nav updates",
+        "detail": {
+          "target": 99.625,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title clears sticky header",
+        "detail": {
+          "target": 100.15625,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title active nav updates",
+        "detail": {
+          "target": 100.15625,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for clears sticky header",
+        "detail": {
+          "target": 100.28125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for active nav updates",
+        "detail": {
+          "target": 100.28125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title clears sticky header",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title active nav updates",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 1 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 1 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 2 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 2 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 3 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 3 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 4 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=True booking 4 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 1 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 1 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 2 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 2 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 3 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 3 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 4 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "1440px JS=True booking 4 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 1 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 1 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 2 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 2 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 3 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 3 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False four booking placements"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 4 exact destination"
+      },
+      {
+        "pass": true,
+        "check": "390px JS=False booking 4 keyboard navigation intercepted"
+      },
+      {
+        "pass": true,
+        "check": "FAQ answers cover requested questions"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 1 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 1 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 1 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 2 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 2 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 2 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 3 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 3 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 3 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 4 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 4 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 4 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 5 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 5 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 5 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 6 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 6 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 6 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 7 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 7 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 7 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 8 opens with Enter"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 8 touch target at least 44px"
+      },
+      {
+        "pass": true,
+        "check": "FAQ 8 closes with Space"
+      },
+      {
+        "pass": true,
+        "check": "ambient pause control visible"
+      },
+      {
+        "pass": true,
+        "check": "ambient motion running in view"
+      },
+      {
+        "pass": true,
+        "check": "ambient motion pauses with Enter"
+      },
+      {
+        "pass": true,
+        "check": "paused control names resume action"
+      },
+      {
+        "pass": true,
+        "check": "ambient motion resumes with Space"
+      },
+      {
+        "pass": true,
+        "check": "ambient motion pauses offscreen"
+      },
+      {
+        "pass": true,
+        "check": "dynamic reduced motion hides ambient control"
+      },
+      {
+        "pass": true,
+        "check": "dynamic reduced motion disables smooth scroll"
+      },
+      {
+        "pass": true,
+        "check": "dynamic reduced motion disables ambient animation"
+      },
+      {
+        "pass": true,
+        "check": "no-JS menu toggle hidden"
+      },
+      {
+        "pass": true,
+        "check": "no-JS exclusion nav visible"
+      },
+      {
+        "pass": true,
+        "check": "no-JS core copy visible"
+      },
+      {
+        "pass": true,
+        "check": "no-JS revised content intact"
+      },
+      {
+        "pass": true,
+        "check": "no-JS native FAQ works"
+      },
+      {
+        "pass": true,
+        "check": "390px no-JS no page horizontal overflow",
+        "detail": {
+          "width": 390,
+          "docWidth": 390,
+          "bad": []
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px no-JS content stays inside viewport",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "initial reduced motion hides ambient control"
+      },
+      {
+        "pass": true,
+        "check": "initial reduced motion disables hero entrance"
+      },
+      {
+        "pass": true,
+        "check": "missing observer core content visible"
+      },
+      {
+        "pass": true,
+        "check": "missing observer unnecessary motion control hidden"
+      },
+      {
+        "pass": true,
+        "check": "no JavaScript errors",
+        "detail": []
+      },
+      {
+        "pass": true,
+        "check": "no automatic external resource requests",
+        "detail": []
+      }
+    ],
+    "geometry": {
+      "320": {
+        "cards": [
+          {
+            "box": {
+              "x": 20,
+              "y": 1802.640625,
+              "w": 280,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "238px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1869.640625,
+              "w": 238,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1933.640625,
+              "w": 238,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "238px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2084.015625,
+              "w": 280,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "238px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2151.015625,
+              "w": 238,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2215.015625,
+              "w": 238,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "238px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2365.390625,
+              "w": 280,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "238px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2432.390625,
+              "w": 238,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2496.390625,
+              "w": 238,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "238px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2646.765625,
+              "w": 280,
+              "h": 318.0625,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 166.062px",
+              "columns": "238px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2713.765625,
+              "w": 238,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2777.765625,
+              "w": 238,
+              "h": 166.0625,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "79.0312px 79.0312px",
+              "columns": "238px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 20,
+          "y": 105,
+          "w": 280,
+          "h": 708.90625,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 20,
+          "y": 841.90625,
+          "w": 280,
+          "h": 327,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 20,
+          "y": 1802.640625,
+          "w": 280,
+          "h": 1162.1875,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "265.375px 265.375px 265.375px 318.062px",
+          "columns": "280px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 20,
+          "y": 3801.171875,
+          "w": 280,
+          "h": 1267.96875,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "193.859px 221.906px 168.219px 193.859px 168.219px 221.906px",
+          "columns": "280px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "360": {
+        "cards": [
+          {
+            "box": {
+              "x": 20,
+              "y": 1674.53125,
+              "w": 320,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "278px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1741.53125,
+              "w": 278,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1805.53125,
+              "w": 278,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "278px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 1955.90625,
+              "w": 320,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "278px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2022.90625,
+              "w": 278,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2086.90625,
+              "w": 278,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "278px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2237.28125,
+              "w": 320,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "278px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2304.28125,
+              "w": 278,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2368.28125,
+              "w": 278,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "278px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2518.65625,
+              "w": 320,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "278px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2585.65625,
+              "w": 278,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2649.65625,
+              "w": 278,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "278px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 20,
+          "y": 105,
+          "w": 320,
+          "h": 617.59375,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 40,
+          "y": 750.59375,
+          "w": 280,
+          "h": 327,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 20,
+          "y": 1674.53125,
+          "w": 320,
+          "h": 1109.5,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "265.375px 265.375px 265.375px 265.375px",
+          "columns": "320px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 20,
+          "y": 3534.59375,
+          "w": 320,
+          "h": 1186.234375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "168.219px 193.859px 168.219px 193.859px 168.219px 193.859px",
+          "columns": "320px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "390": {
+        "cards": [
+          {
+            "box": {
+              "x": 20,
+              "y": 1590.765625,
+              "w": 350,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "308px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1657.765625,
+              "w": 308,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1721.765625,
+              "w": 308,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "308px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 1872.140625,
+              "w": 350,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "308px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1939.140625,
+              "w": 308,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2003.140625,
+              "w": 308,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "308px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2153.515625,
+              "w": 350,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "308px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2220.515625,
+              "w": 308,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2284.515625,
+              "w": 308,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "308px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2434.890625,
+              "w": 350,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "308px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2501.890625,
+              "w": 308,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2565.890625,
+              "w": 308,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "308px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 20,
+          "y": 105,
+          "w": 350,
+          "h": 561.875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 55,
+          "y": 694.875,
+          "w": 280,
+          "h": 327,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 20,
+          "y": 1590.765625,
+          "w": 350,
+          "h": 1109.5,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "265.375px 265.375px 265.375px 265.375px",
+          "columns": "350px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 20,
+          "y": 3450.828125,
+          "w": 350,
+          "h": 1132.546875,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "168.219px 168.219px 140.172px 193.859px 168.219px 193.859px",
+          "columns": "350px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "430": {
+        "cards": [
+          {
+            "box": {
+              "x": 20,
+              "y": 1521.9375,
+              "w": 390,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "348px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1588.9375,
+              "w": 348,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1652.9375,
+              "w": 348,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "348px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 1803.3125,
+              "w": 390,
+              "h": 239.03125,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 87.0312px",
+              "columns": "348px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1870.3125,
+              "w": 348,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1934.3125,
+              "w": 348,
+              "h": 87.03125,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 26.3438px",
+              "columns": "348px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2058.34375,
+              "w": 390,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "348px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2125.34375,
+              "w": 348,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2189.34375,
+              "w": 348,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "348px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2339.71875,
+              "w": 390,
+              "h": 265.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 113.375px",
+              "columns": "348px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2406.71875,
+              "w": 348,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2470.71875,
+              "w": 348,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "348px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 20,
+          "y": 105,
+          "w": 390,
+          "h": 513.1875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 75,
+          "y": 646.1875,
+          "w": 280,
+          "h": 327,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 20,
+          "y": 1521.9375,
+          "w": 390,
+          "h": 1083.15625,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "265.375px 239.031px 265.375px 265.375px",
+          "columns": "390px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 20,
+          "y": 3297.921875,
+          "w": 390,
+          "h": 1050.8125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "168.219px 168.219px 140.172px 165.812px 140.172px 168.219px",
+          "columns": "390px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "540": {
+        "cards": [
+          {
+            "box": {
+              "x": 20,
+              "y": 1464.296875,
+              "w": 500,
+              "h": 185.6875,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 27px 60.6875px",
+              "columns": "458px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1531.296875,
+              "w": 389.296875,
+              "h": 27,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1568.296875,
+              "w": 458,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "458px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 1665.984375,
+              "w": 500,
+              "h": 212.6875,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 60.6875px",
+              "columns": "458px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1732.984375,
+              "w": 389.296875,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 1796.984375,
+              "w": 458,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "458px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 1894.671875,
+              "w": 500,
+              "h": 212.6875,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 60.6875px",
+              "columns": "458px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 1961.671875,
+              "w": 389.296875,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2025.671875,
+              "w": 458,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "458px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 2123.359375,
+              "w": 500,
+              "h": 239.03125,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 54px 87.0312px",
+              "columns": "458px"
+            },
+            "heading": {
+              "x": 41,
+              "y": 2190.359375,
+              "w": 389.296875,
+              "h": 54,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 41,
+              "y": 2254.359375,
+              "w": 458,
+              "h": 87.03125,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 52.6875px",
+              "columns": "458px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 20,
+          "y": 105,
+          "w": 500,
+          "h": 520.390625,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 130,
+          "y": 653.390625,
+          "w": 280,
+          "h": 327,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 20,
+          "y": 1464.296875,
+          "w": 500,
+          "h": 898.09375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "185.688px 212.688px 212.688px 239.031px",
+          "columns": "500px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 20,
+          "y": 2990.375,
+          "w": 500,
+          "h": 941.03125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "140.172px 140.172px 140.172px 140.172px 140.172px 140.172px",
+          "columns": "500px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "768": {
+        "cards": [
+          {
+            "box": {
+              "x": 24,
+              "y": 1491.328125,
+              "w": 720,
+              "h": 187.03125,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 28.3438px 60.6875px",
+              "columns": "678px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1558.328125,
+              "w": 408.765625,
+              "h": 28.34375,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 1596.671875,
+              "w": 678,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "678px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 1694.359375,
+              "w": 720,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "678px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1761.359375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 1828.046875,
+              "w": 678,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "678px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 1925.734375,
+              "w": 720,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "678px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1992.734375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 2059.421875,
+              "w": 678,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "678px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 2157.109375,
+              "w": 720,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "678px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 2224.109375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 2290.796875,
+              "w": 678,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "678px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 24,
+          "y": 113,
+          "w": 620,
+          "h": 504.96875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 234,
+          "y": 647.96875,
+          "w": 300,
+          "h": 348,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 24,
+          "y": 1491.328125,
+          "w": 720,
+          "h": 881.15625,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "187.031px 215.375px 215.375px 215.375px",
+          "columns": "720px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 24,
+          "y": 2968.359375,
+          "w": 720,
+          "h": 912.984375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "140.172px 140.172px 112.125px 140.172px 140.172px 140.172px",
+          "columns": "720px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "800": {
+        "cards": [
+          {
+            "box": {
+              "x": 24,
+              "y": 1491.328125,
+              "w": 752,
+              "h": 187.03125,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 28.3438px 60.6875px",
+              "columns": "710px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1558.328125,
+              "w": 408.765625,
+              "h": 28.34375,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 1596.671875,
+              "w": 710,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "710px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 1694.359375,
+              "w": 752,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "710px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1761.359375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 1828.046875,
+              "w": 710,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "710px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 1925.734375,
+              "w": 752,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "710px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 1992.734375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 2059.421875,
+              "w": 710,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "710px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 24,
+              "y": 2157.109375,
+              "w": 752,
+              "h": 215.375,
+              "pad": "20px",
+              "display": "grid",
+              "rows": "36px 56.6875px 60.6875px",
+              "columns": "710px"
+            },
+            "heading": {
+              "x": 45,
+              "y": 2224.109375,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 45,
+              "y": 2290.796875,
+              "w": 710,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "710px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 24,
+          "y": 113,
+          "w": 620,
+          "h": 504.96875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 250,
+          "y": 647.96875,
+          "w": 300,
+          "h": 348,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 24,
+          "y": 1491.328125,
+          "w": 752,
+          "h": 881.15625,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "187.031px 215.375px 215.375px 215.375px",
+          "columns": "752px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 24,
+          "y": 2968.359375,
+          "w": 752,
+          "h": 884.9375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "140.172px 140.172px 112.125px 112.125px 140.172px 140.172px",
+          "columns": "752px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "801": {
+        "cards": [
+          {
+            "box": {
+              "x": 32,
+              "y": 1150.328125,
+              "w": 358.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "312.5px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1219.328125,
+              "w": 312.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1286.015625,
+              "w": 312.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "312.5px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 410.5,
+              "y": 1150.328125,
+              "w": 358.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "312.5px"
+            },
+            "heading": {
+              "x": 433.5,
+              "y": 1219.328125,
+              "w": 312.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 433.5,
+              "y": 1286.015625,
+              "w": 312.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 26.3438px",
+              "columns": "312.5px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 32,
+              "y": 1442.390625,
+              "w": 358.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "312.5px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1511.390625,
+              "w": 312.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1578.078125,
+              "w": 312.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "312.5px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 410.5,
+              "y": 1442.390625,
+              "w": 358.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "312.5px"
+            },
+            "heading": {
+              "x": 433.5,
+              "y": 1511.390625,
+              "w": 312.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 433.5,
+              "y": 1578.078125,
+              "w": 312.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "312.5px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 32,
+          "y": 127,
+          "w": 423,
+          "h": 523.96875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 487,
+          "y": 196.234375,
+          "w": 282,
+          "h": 385.5,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 32,
+          "y": 1150.328125,
+          "w": 737,
+          "h": 564.125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 131.375px 54px 46.6875px 131.375px",
+          "columns": "358.5px 358.5px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 32,
+          "y": 2318.328125,
+          "w": 737,
+          "h": 523.90625,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "249.953px 249.953px",
+          "columns": "225.656px 225.672px 225.672px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "960": {
+        "cards": [
+          {
+            "box": {
+              "x": 32,
+              "y": 1150.484375,
+              "w": 438,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1219.484375,
+              "w": 392,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1286.171875,
+              "w": 392,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "392px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 490,
+              "y": 1150.484375,
+              "w": 438,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392px"
+            },
+            "heading": {
+              "x": 513,
+              "y": 1219.484375,
+              "w": 392,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 513,
+              "y": 1286.171875,
+              "w": 392,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "392px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 32,
+              "y": 1389.859375,
+              "w": 438,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1458.859375,
+              "w": 392,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1525.546875,
+              "w": 392,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 26.3438px",
+              "columns": "392px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 490,
+              "y": 1389.859375,
+              "w": 438,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392px"
+            },
+            "heading": {
+              "x": 513,
+              "y": 1458.859375,
+              "w": 392,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 513,
+              "y": 1525.546875,
+              "w": 392,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "392px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 32,
+          "y": 127,
+          "w": 518.390625,
+          "h": 524.125,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 582.390625,
+          "y": 156.5625,
+          "w": 345.609375,
+          "h": 465,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 32,
+          "y": 1150.484375,
+          "w": 896,
+          "h": 511.4375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 78.6875px 54px 46.6875px 131.375px",
+          "columns": "438px 438px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 32,
+          "y": 2265.796875,
+          "w": 896,
+          "h": 467.8125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "221.906px 221.906px",
+          "columns": "278.656px 278.672px 278.656px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "961": {
+        "cards": [
+          {
+            "box": {
+              "x": 32,
+              "y": 1158.546875,
+              "w": 438.5,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392.5px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1227.546875,
+              "w": 392.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1294.234375,
+              "w": 392.5,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "392.5px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 490.5,
+              "y": 1158.546875,
+              "w": 438.5,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392.5px"
+            },
+            "heading": {
+              "x": 513.5,
+              "y": 1227.546875,
+              "w": 392.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 513.5,
+              "y": 1294.234375,
+              "w": 392.5,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "392.5px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 32,
+              "y": 1397.921875,
+              "w": 438.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392.5px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1466.921875,
+              "w": 392.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1533.609375,
+              "w": 392.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 26.3438px",
+              "columns": "392.5px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 490.5,
+              "y": 1397.921875,
+              "w": 438.5,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "392.5px"
+            },
+            "heading": {
+              "x": 513.5,
+              "y": 1466.921875,
+              "w": 392.5,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 513.5,
+              "y": 1533.609375,
+              "w": 392.5,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "392.5px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 32,
+          "y": 135,
+          "w": 519,
+          "h": 524.1875,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 583,
+          "y": 164.34375,
+          "w": 346,
+          "h": 465.5,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 32,
+          "y": 1158.546875,
+          "w": 897,
+          "h": 511.4375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 78.6875px 54px 46.6875px 131.375px",
+          "columns": "438.5px 438.5px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 32,
+          "y": 2273.859375,
+          "w": 897,
+          "h": 467.8125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "221.906px 221.906px",
+          "columns": "279px 279px 279px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "1024": {
+        "cards": [
+          {
+            "box": {
+              "x": 32,
+              "y": 1095.453125,
+              "w": 470,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "424px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1164.453125,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1231.140625,
+              "w": 424,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "424px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 522,
+              "y": 1095.453125,
+              "w": 470,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "424px"
+            },
+            "heading": {
+              "x": 545,
+              "y": 1164.453125,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 545,
+              "y": 1231.140625,
+              "w": 424,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "424px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 32,
+              "y": 1334.828125,
+              "w": 470,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "424px"
+            },
+            "heading": {
+              "x": 55,
+              "y": 1403.828125,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 55,
+              "y": 1470.515625,
+              "w": 424,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "424px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 522,
+              "y": 1334.828125,
+              "w": 470,
+              "h": 272.0625,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "424px"
+            },
+            "heading": {
+              "x": 545,
+              "y": 1403.828125,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 545,
+              "y": 1470.515625,
+              "w": 424,
+              "h": 113.375,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "52.6875px 52.6875px",
+              "columns": "424px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 32,
+          "y": 135,
+          "w": 545.28125,
+          "h": 528.84375,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 628.46875,
+          "y": 155.71875,
+          "w": 363.515625,
+          "h": 487.390625,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 32,
+          "y": 1095.453125,
+          "w": 960,
+          "h": 511.4375,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 78.6875px 54px 46.6875px 131.375px",
+          "columns": "470px 470px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 32,
+          "y": 2212.515625,
+          "w": 960,
+          "h": 467.8125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "221.906px 221.906px",
+          "columns": "300px 300px 300px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "1440": {
+        "cards": [
+          {
+            "box": {
+              "x": 140,
+              "y": 1129.1875,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 163,
+              "y": 1198.1875,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 163,
+              "y": 1264.875,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 730,
+              "y": 1129.1875,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 753,
+              "y": 1198.1875,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 753,
+              "y": 1264.875,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 140,
+              "y": 1368.5625,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 163,
+              "y": 1437.5625,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 163,
+              "y": 1504.25,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 730,
+              "y": 1368.5625,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 753,
+              "y": 1437.5625,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 753,
+              "y": 1504.25,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 140,
+          "y": 135,
+          "w": 652.796875,
+          "h": 520.734375,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 910,
+          "y": 135.109375,
+          "w": 390,
+          "h": 520.5,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 140,
+          "y": 1129.1875,
+          "w": 1160,
+          "h": 458.75,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 78.6875px 54px 46.6875px 78.6875px",
+          "columns": "570px 570px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 140,
+          "y": 2251.40625,
+          "w": 1160,
+          "h": 386.078125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "168.219px 193.859px",
+          "columns": "366.656px 366.672px 366.656px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      },
+      "1920": {
+        "cards": [
+          {
+            "box": {
+              "x": 380,
+              "y": 1129.1875,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 403,
+              "y": 1198.1875,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 403,
+              "y": 1264.875,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "They ask for details. Then stop replying.\nYou share the fees and course information.\nThe conversation ends before a clear next step."
+          },
+          {
+            "box": {
+              "x": 970,
+              "y": 1129.1875,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 993,
+              "y": 1198.1875,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 993,
+              "y": 1264.875,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "Follow-up takes time. Readiness stays unclear.\nYour team keeps chasing interested people.\nIt is difficult to tell who is ready to join."
+          },
+          {
+            "box": {
+              "x": 380,
+              "y": 1368.5625,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 403,
+              "y": 1437.5625,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 403,
+              "y": 1504.25,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "The start date gets closer. Places stay open.\nYou have an upcoming intake and available seats.\nYou are still trying to reach suitable students."
+          },
+          {
+            "box": {
+              "x": 970,
+              "y": 1368.5625,
+              "w": 570,
+              "h": 219.375,
+              "pad": "22px",
+              "display": "grid",
+              "rows": "subgrid [] [] [] []",
+              "columns": "524px"
+            },
+            "heading": {
+              "x": 993,
+              "y": 1437.5625,
+              "w": 408.765625,
+              "h": 56.6875,
+              "pad": "0px",
+              "display": "block",
+              "rows": "none",
+              "columns": "none"
+            },
+            "points": {
+              "x": 993,
+              "y": 1504.25,
+              "w": 524,
+              "h": 60.6875,
+              "pad": "0px",
+              "display": "grid",
+              "rows": "26.3438px 26.3438px",
+              "columns": "524px"
+            },
+            "text": "A valuable course still needs a clearer path.\nStudents need to understand why the course suits them.\nFirst interest needs a clear route to an enrolment decision."
+          }
+        ],
+        "hero": {
+          "x": 380,
+          "y": 135,
+          "w": 652.796875,
+          "h": 520.734375,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "portrait": {
+          "x": 1150,
+          "y": 135.109375,
+          "w": 390,
+          "h": 520.5,
+          "pad": "0px",
+          "display": "block",
+          "rows": "none",
+          "columns": "none"
+        },
+        "grid": {
+          "x": 380,
+          "y": 1129.1875,
+          "w": 1160,
+          "h": 458.75,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "54px 46.6875px 78.6875px 54px 46.6875px 78.6875px",
+          "columns": "570px 570px"
+        },
+        "approachCount": 6,
+        "approach": {
+          "x": 380,
+          "y": 2251.40625,
+          "w": 1160,
+          "h": 386.078125,
+          "pad": "0px",
+          "display": "grid",
+          "rows": "168.219px 193.859px",
+          "columns": "366.656px 366.672px 366.656px"
+        },
+        "h1": "30 paid enrolments\nwithin 15 live advertising days.",
+        "navLabel": "Who It\u2019s Not For",
+        "fonts": [
+          "Arial, Helvetica, sans-serif",
+          "Georgia, \"Times New Roman\", serif"
+        ]
+      }
+    },
+    "limits": [
+      "Firefox, Safari and real devices not tested.",
+      "Calendly routes intercepted; no live calendar availability or appointment tested.",
+      "No axe-core bundle available locally; no automated WCAG scan performed."
+    ]
+  },
+  "finalTargetedSuite": {
+    "htmlSha256": "b7349fdc979fdb1876466f9cdc76c90f663b7c1d41e5f66b47145d3283004a4a",
+    "checks": 100,
+    "passed": 100,
+    "failed": [],
+    "results": [
+      {
+        "pass": true,
+        "check": "390px closed menu aria hidden"
+      },
+      {
+        "pass": true,
+        "check": "390px closed menu inert"
+      },
+      {
+        "pass": true,
+        "check": "390px keyboard menu opens"
+      },
+      {
+        "pass": true,
+        "check": "390px opening focuses first nav link"
+      },
+      {
+        "pass": true,
+        "check": "390px Escape closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px Escape restores toggle focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title clears sticky header",
+        "detail": {
+          "target": 92.4375,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title active nav updates",
+        "detail": {
+          "target": 92.4375,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title clears sticky header",
+        "detail": {
+          "target": 92.15625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title active nav updates",
+        "detail": {
+          "target": 92.15625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for clears sticky header",
+        "detail": {
+          "target": 234.76766967773438,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for active nav updates",
+        "detail": {
+          "target": 234.76766967773438,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title clears sticky header",
+        "detail": {
+          "target": 93.125,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title active nav updates",
+        "detail": {
+          "target": 93.125,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "390px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "390px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px closed menu aria hidden"
+      },
+      {
+        "pass": true,
+        "check": "960px closed menu inert"
+      },
+      {
+        "pass": true,
+        "check": "960px keyboard menu opens"
+      },
+      {
+        "pass": true,
+        "check": "960px opening focuses first nav link"
+      },
+      {
+        "pass": true,
+        "check": "960px Escape closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px Escape restores toggle focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title clears sticky header",
+        "detail": {
+          "target": 91.515625,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title active nav updates",
+        "detail": {
+          "target": 91.515625,
+          "header": 73,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title clears sticky header",
+        "detail": {
+          "target": 92.140625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title active nav updates",
+        "detail": {
+          "target": 92.140625,
+          "header": 73,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for clears sticky header",
+        "detail": {
+          "target": 170.890625,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for active nav updates",
+        "detail": {
+          "target": 170.890625,
+          "header": 73,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title clears sticky header",
+        "detail": {
+          "target": 91.5,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title active nav updates",
+        "detail": {
+          "target": 91.5,
+          "header": 73,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "960px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "960px section selection closes menu"
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title clears sticky header",
+        "detail": {
+          "target": 99.578125,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title active nav updates",
+        "detail": {
+          "target": 99.578125,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title clears sticky header",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title active nav updates",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for clears sticky header",
+        "detail": {
+          "target": 178.953125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for active nav updates",
+        "detail": {
+          "target": 178.953125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title clears sticky header",
+        "detail": {
+          "target": 99.5625,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title active nav updates",
+        "detail": {
+          "target": 99.5625,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "961px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title clears sticky header",
+        "detail": {
+          "target": 99.625,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title active nav updates",
+        "detail": {
+          "target": 99.625,
+          "header": 81,
+          "focus": true,
+          "active": "#problems-title",
+          "hash": "#problems-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #problems-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title clears sticky header",
+        "detail": {
+          "target": 100.15625,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title active nav updates",
+        "detail": {
+          "target": 100.15625,
+          "header": 81,
+          "focus": true,
+          "active": "#approach-title",
+          "hash": "#approach-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #approach-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for clears sticky header",
+        "detail": {
+          "target": 179.28125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for active nav updates",
+        "detail": {
+          "target": 179.28125,
+          "header": 81,
+          "focus": true,
+          "active": "#not-for",
+          "hash": "#not-for"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #not-for native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title clears sticky header",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title destination receives focus"
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title active nav updates",
+        "detail": {
+          "target": 100.203125,
+          "header": 81,
+          "focus": true,
+          "active": "#faq-title",
+          "hash": "#faq-title"
+        }
+      },
+      {
+        "pass": true,
+        "check": "1440px #faq-title native hash updates"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True exclusion section owns anchor"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True exclusion heading focusable"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True exclusion section accessible name"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True exclusion heading visible after navigation"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True exclusion hash correct"
+      },
+      {
+        "pass": true,
+        "check": "final section anchor focuses exclusion heading"
+      },
+      {
+        "pass": true,
+        "check": "final reduced-motion control hidden"
+      },
+      {
+        "pass": true,
+        "check": "final reduced-motion native scrolling"
+      },
+      {
+        "pass": true,
+        "check": "final JS=True direct hash exclusion heading visible"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False exclusion section owns anchor"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False exclusion heading focusable"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False exclusion section accessible name"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False exclusion heading visible after navigation"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False exclusion hash correct"
+      },
+      {
+        "pass": true,
+        "check": "final JS=False direct hash exclusion heading visible"
+      },
+      {
+        "pass": true,
+        "check": "final no JavaScript errors",
+        "detail": []
+      }
+    ],
+    "scope": "Final section anchor semantics, navigation focus/active/offsets at390/960/961/1440, reduced-motion/no-JS direct hashes; screenshot refresh. Prior468-check suite applies to preceding hash with otherwise identical CSS/content."
+  },
+  "renderedTextContrast": {
+    "checks": 133,
+    "passed": 133,
+    "failed": [],
+    "lowestRatios": [
+      {
+        "text": "Reply to the message that brought you here. We will arrange a 20-minute call to review one course and decide w",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 18,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Your courses, fees, available seats and intake timing.",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "The path from enquiry to admissions conversation.",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Whether this approach fits your institute.",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Prefer to choose a time directly? Use my calendar.",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 16,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Review your courses, available seats and fit.",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 15,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "Ahmad Hussain \u00b7 Meta Ads and admissions follow-up",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            215,
+            225,
+            245
+          ],
+          [
+            215,
+            225,
+            245
+          ]
+        ],
+        "fontSize": 14,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 4.844,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "I connect ads built around students\u2019 goals and frustrations with a CRM follow-up system linked to your Meta ca",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            237,
+            242,
+            250
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 5.664,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "The creative explains how your course can help with a real learning goal, such as building practical skills or",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            237,
+            242,
+            250
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 5.664,
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "text": "I also review the questions and objections your admissions team hears, then use that feedback to improve the n",
+        "fg": [
+          82,
+          97,
+          111
+        ],
+        "bg": [
+          [
+            237,
+            242,
+            250
+          ]
+        ],
+        "fontSize": 17,
+        "fontWeight": 400,
+        "opacity": 1,
+        "ratio": 5.664,
+        "threshold": 4.5,
+        "pass": true
+      }
+    ],
+    "limits": "Computed text-colour contrast against nearest opaque background or every colour stop of its gradient. Does not replace full accessibility certification."
+  },
+  "previews": {
+    "htmlSha256": "b7349fdc979fdb1876466f9cdc76c90f663b7c1d41e5f66b47145d3283004a4a",
+    "browser": "Headless Chromium /usr/bin/chromium",
+    "viewports": {
+      "desktop": [
+        1440,
+        1000
+      ],
+      "mobile": [
+        390,
+        1000
+      ]
+    },
+    "captureNotes": "Exact saved HTML fulfilled by Playwright routing at synthetic HTTPS URL; no external source. Reduced motion enabled for still captures. Sticky header hidden through screenshot-only CSS for section close-ups; full-page captures reset scroll to top.",
+    "screenshots": [
+      {
+        "file": "approach-desktop.png",
+        "sha256": "17e1e88a9abe9f331f19273945baacc012d1989288c4fc59da1d4d7a56a98fdc",
+        "dimensions": [
+          1440,
+          1471
+        ],
+        "bytes": 210981
+      },
+      {
+        "file": "approach-mobile.png",
+        "sha256": "5616a87b7451c79be7e41173718320f563ea08d3620e98c434e0a9a04b61e860",
+        "dimensions": [
+          390,
+          2865
+        ],
+        "bytes": 227633
+      },
+      {
+        "file": "fit-desktop.png",
+        "sha256": "af6a24bcd18574a180b5ce16e042060627f9e913068f0e6ec99cdc3da90eb6ae",
+        "dimensions": [
+          1440,
+          369
+        ],
+        "bytes": 60865
+      },
+      {
+        "file": "fit-mobile.png",
+        "sha256": "c0a9636f1037b53fa0294dbe802a2821894c2b7dcfd5bf91b94b5daa356a43a2",
+        "dimensions": [
+          390,
+          730
+        ],
+        "bytes": 56396
+      },
+      {
+        "file": "funnel-desktop.png",
+        "sha256": "af39f802cacfba72b2d5e03da31058588aa61e8d2b60cea2b7d96ad1e9d2c40b",
+        "dimensions": [
+          1440,
+          6791
+        ],
+        "bytes": 1362123
+      },
+      {
+        "file": "funnel-mobile.png",
+        "sha256": "cd87b0d38294f6933630d3d5cc7fd00ee48882a83b649f9ad68fcb6652806f1d",
+        "dimensions": [
+          390,
+          11193
+        ],
+        "bytes": 1021660
+      },
+      {
+        "file": "hero-desktop.png",
+        "sha256": "401460af3f3344fc46c1d5db4b2511e7307b39454db4f527f8ce649a6d577562",
+        "dimensions": [
+          1440,
+          1000
+        ],
+        "bytes": 337813
+      },
+      {
+        "file": "hero-mobile.png",
+        "sha256": "1bf05d914258cf0bc03d44463690ea3d6eb9102f45babd46474831449847935b",
+        "dimensions": [
+          390,
+          1000
+        ],
+        "bytes": 120588
+      },
+      {
+        "file": "offer-desktop.png",
+        "sha256": "3eab7021837fda6f2c1597f6dcf1bbffbc6ddfaeea30e5561d9d04a22cb3f9e8",
+        "dimensions": [
+          1440,
+          1257
+        ],
+        "bytes": 169187
+      },
+      {
+        "file": "offer-mobile.png",
+        "sha256": "53e1fa5952b8347fc718a83ad44c18cc84da57a73844c7b2fc3fe0b41a755530",
+        "dimensions": [
+          390,
+          1868
+        ],
+        "bytes": 164618
+      },
+      {
+        "file": "problems-desktop.png",
+        "sha256": "44a9c7d062f8faa60111392d6122c6f83980aaa89ca00fc111ed73ecc0143643",
+        "dimensions": [
+          1440,
+          1054
+        ],
+        "bytes": 493243
+      },
+      {
+        "file": "problems-mobile.png",
+        "sha256": "59e1681f2a3302726c9cccbfa7e9e650c70294149f6a3779bde4b152fb74cd1c",
+        "dimensions": [
+          390,
+          1794
+        ],
+        "bytes": 239222
+      }
+    ]
+  },
+  "versionNote": "The main suite and contrast checks ran before the final anchor-only correction; final targeted checks and all refreshed screenshots use the final source hash. CSS, visible copy, booking logic and typography did not change in that correction.",
+  "limitations": [
+    "Chromium only; Firefox, Safari, real devices and native zoom not tested.",
+    "No full axe/accessibility scan; rendered text contrast and keyboard tests only.",
+    "Calendly destination navigation was intercepted; availability, duration and appointments not tested.",
+    "Only text brief attached; no PDF comparison.",
+    "No merge, deployment, indexing activation or Vercel changes."
+  ]
+}
