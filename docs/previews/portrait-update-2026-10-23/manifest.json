@@ -1,0 +1,42 @@
+{
+  "htmlSha256": "feed322c1ad4c6d384b52409a3ca2c23606cfe5b4e85e254c51f6e2c3225cacc",
+  "screenshots": [
+    {
+      "file": "hero-desktop.png",
+      "sha256": "aa53960908fc0980f632f2f60f9783f0ff678989d8583d841cccf6511e6a721d",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "bytes": 485486
+    },
+    {
+      "file": "hero-mobile.png",
+      "sha256": "7e0e030db80a41ef457b96a333101c021c5e6eef537e33989243896785fe47bf",
+      "dimensions": [
+        390,
+        1000
+      ],
+      "bytes": 186785
+    },
+    {
+      "file": "portrait-desktop.png",
+      "sha256": "cc377f9a74af2d9968e062297b5d15f5f526fdc2e23410e3bc3db3a862dc8090",
+      "dimensions": [
+        390,
+        521
+      ],
+      "bytes": 238728
+    },
+    {
+      "file": "portrait-mobile.png",
+      "sha256": "398b68d67b7c03997542dad7c053484f766a2d07e0d60b1f88bc20019556b1aa",
+      "dimensions": [
+        280,
+        328
+      ],
+      "bytes": 125813
+    }
+  ],
+  "captureNotes": "Actual Chromium renders at1440x1000 and390x1000; reduced motion for still capture. Portrait close-ups hide sticky header only during screenshot capture."
+}

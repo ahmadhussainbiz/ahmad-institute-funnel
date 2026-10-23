@@ -1,5 +1,19 @@
 # Funnel project record
 
+## Hero photo replacement — 23 October 2026
+
+The owner supplied a new outdoor portrait in `tinified.zip` and asked to replace the existing hero portrait because the photograph feels more authentic. The ZIP contains one 566 × 600 JPEG, 54,485 bytes. Its original bytes are embedded directly in the single HTML; no generative recreation, retouching, facial alteration, sharpening or additional compression is applied. Portrait SHA-256: `ecb797120a5227744931fec10ed1711ecb645940a5e7f7416c96d61698c95010`.
+
+The existing desktop and mobile frame dimensions, borders, font families, caption and hero entrance animation are retained. A clipped inner wrapper and CSS-only 1.6× scale with transform origin 46% 60% give the photo an upper-body framing with less tree/headroom. The image's intrinsic dimensions and descriptive alt text are updated. A valid optional `founderPhoto` override uses the generic framing; if it fails, the supplied embedded photo and its outdoor framing are restored.
+
+All visible page copy, offer terms, navigation, booking destinations and configuration values match the preceding review version. Commercial decisions remain in the existing separate report. The previous revision's full-page screenshots show the former portrait; [updated desktop hero](previews/portrait-update-2026-10-23/hero-desktop.png) and [updated mobile hero](previews/portrait-update-2026-10-23/hero-mobile.png) show this replacement.
+
+Focused Chromium verification passed **77/77 checks** at 320, 390, 768, 801, 1024 and 1440 CSS pixels against the final 141,246-byte HTML, SHA-256 `feed322c1ad4c6d384b52409a3ca2c23606cfe5b4e85e254c51f6e2c3225cacc`. Checks cover exact embedded JPEG bytes, intrinsic dimensions and descriptive alt text, no overflow, original fonts, hero copy/portrait order, unchanged settings/booking links, JavaScript-disabled and reduced-motion presentation, successful optional portrait overrides and failure restoration of the embedded outdoor photo and crop. Both inline scripts pass syntax checks. Desktop/mobile exclusion navigation still reaches the section with heading focus, active state and sticky clearance; the hero Calendly action reaches the exact intercepted destination. No automatic external resource requests or JavaScript errors were found.
+
+Desktop/mobile hero and isolated portrait screenshots were visually inspected. Face and hair remain fully visible; the crop preserves the real scene and fits the original frame. See the [portrait verification record](verification-portrait-2026-10-23.json). Tests used the saved HTML fulfilled at a synthetic HTTPS URL, without deployment. Chromium only: Firefox, Safari and real devices were not tested. Calendar navigation was intercepted; live availability and appointments were not tested. The earlier full-suite record applies to the preceding version and was not needlessly repeated for this isolated photo change.
+
+The change remains on `review/funnel-design-refinements`. No merge, deployment, appointment or indexing activation is performed.
+
 ## Revision brief applied — 23 October 2026
 
 This review continues the saved `review/funnel-design-refinements` implementation at `145d448d7c3407b15a7d91a5a9f7b8f42d3e1a87` (22 October). It does not start from `main` or rebuild the funnel. The local checkout initially contained an older copy at `4ddfd24`; the current branch files were read through the GitHub connector before editing. Execution succeeded. Shell `git fetch origin review/funnel-design-refinements` failed once with `fatal: unable to access 'https://github.com/ahmadhussainbiz/ahmad-institute-funnel.git/': Failed to connect to proxy port 8080 after 0 ms: Could not connect to server`. That operation was not retried. GitHub connector reads supplied the actual saved header, Calendly links and motion implementation. Only the text revision brief was attached; no PDF comparison is claimed.
