@@ -1,0 +1,43 @@
+{
+  "htmlSha256": "9c85e39a827a26ea454cc7fc4a26817126b3bdf2de53e9b3c2de79fe0bb89c4a",
+  "uploadedPhotoSha256": "1ab20238abff1331a9dce7dc89c4d5c9d6efbe757fbf661396ee9b19a8884498",
+  "screenshots": [
+    {
+      "file": "hero-desktop.png",
+      "sha256": "c1e5517c7f5e2e1c318b87e6ae9f502150afb766bd3d2045fe8508b8f77fac44",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "bytes": 478385
+    },
+    {
+      "file": "hero-mobile.png",
+      "sha256": "1537877bf4551f29a32b7f17c080e02d6c3b2e886dddde82da15f84b80744403",
+      "dimensions": [
+        390,
+        1000
+      ],
+      "bytes": 155929
+    },
+    {
+      "file": "portrait-desktop.png",
+      "sha256": "ecd1b6a9a325ddf3359ee88fad1351c7c499fb4ac4dd0020f2a0bf533f1219f6",
+      "dimensions": [
+        390,
+        521
+      ],
+      "bytes": 234839
+    },
+    {
+      "file": "portrait-mobile.png",
+      "sha256": "14ec48270220a32f86a5a00907b4b771dd60cfd6a0c9278ccd004a2f08ddf5ef",
+      "dimensions": [
+        280,
+        328
+      ],
+      "bytes": 95560
+    }
+  ],
+  "captureNotes": "Actual Chromium renders at1440x1000 and390x1000; reduced motion for still capture. Portrait close-ups hide sticky header only during screenshot capture. No photo pixels or source content changed for capture."
+}

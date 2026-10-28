@@ -1,0 +1,770 @@
+{
+  "htmlSha256": "9c85e39a827a26ea454cc7fc4a26817126b3bdf2de53e9b3c2de79fe0bb89c4a",
+  "uploadedPhotoSha256": "1ab20238abff1331a9dce7dc89c4d5c9d6efbe757fbf661396ee9b19a8884498",
+  "checks": 83,
+  "passed": 83,
+  "failed": [],
+  "widths": [
+    320,
+    390,
+    768,
+    801,
+    1024,
+    1440
+  ],
+  "results": [
+    {
+      "pass": true,
+      "check": "Uploaded JPEG bytes embedded unchanged"
+    },
+    {
+      "pass": true,
+      "check": "Original funnel settings preserved"
+    },
+    {
+      "pass": true,
+      "check": "320px no horizontal overflow",
+      "detail": 320
+    },
+    {
+      "pass": true,
+      "check": "320px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "320px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "320px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "320px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "320px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "320px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "320px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "320px copy precedes photo"
+    },
+    {
+      "pass": true,
+      "check": "320px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "320px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "390px no horizontal overflow",
+      "detail": 390
+    },
+    {
+      "pass": true,
+      "check": "390px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "390px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "390px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "390px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "390px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "390px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "390px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "390px copy precedes photo"
+    },
+    {
+      "pass": true,
+      "check": "390px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "390px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "390px exclusion navigation focus/current/offset",
+      "detail": {
+        "focus": "not-for-title",
+        "active": "#not-for",
+        "top": 163.5,
+        "header": 73
+      }
+    },
+    {
+      "pass": true,
+      "check": "390px native hero booking navigates to intercepted calendar"
+    },
+    {
+      "pass": true,
+      "check": "768px no horizontal overflow",
+      "detail": 768
+    },
+    {
+      "pass": true,
+      "check": "768px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "768px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "768px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "768px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "768px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "768px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "768px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "768px copy precedes photo"
+    },
+    {
+      "pass": true,
+      "check": "768px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "768px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "801px no horizontal overflow",
+      "detail": 801
+    },
+    {
+      "pass": true,
+      "check": "801px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "801px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "801px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "801px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "801px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "801px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "801px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "801px photo right of copy"
+    },
+    {
+      "pass": true,
+      "check": "801px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "801px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "1024px no horizontal overflow",
+      "detail": 1024
+    },
+    {
+      "pass": true,
+      "check": "1024px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "1024px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "1024px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "1024px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "1024px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "1024px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "1024px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "1024px photo right of copy"
+    },
+    {
+      "pass": true,
+      "check": "1024px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "1024px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "1440px no horizontal overflow",
+      "detail": 1440
+    },
+    {
+      "pass": true,
+      "check": "1440px supplied JPEG loaded at1202x1310"
+    },
+    {
+      "pass": true,
+      "check": "1440px descriptive portrait alt",
+      "detail": "Ahmad Hussain wearing a black blazer and white shirt"
+    },
+    {
+      "pass": true,
+      "check": "1440px crop clips within frame"
+    },
+    {
+      "pass": true,
+      "check": "1440px old outdoor class absent"
+    },
+    {
+      "pass": true,
+      "check": "1440px no CSS portrait zoom"
+    },
+    {
+      "pass": true,
+      "check": "1440px portrait inside viewport"
+    },
+    {
+      "pass": true,
+      "check": "1440px fonts retained"
+    },
+    {
+      "pass": true,
+      "check": "1440px photo right of copy"
+    },
+    {
+      "pass": true,
+      "check": "1440px four existing booking placements"
+    },
+    {
+      "pass": true,
+      "check": "1440px exact Calendly destination preserved"
+    },
+    {
+      "pass": true,
+      "check": "1440px exclusion navigation focus/current/offset",
+      "detail": {
+        "focus": "not-for-title",
+        "active": "#not-for",
+        "top": 179.28125,
+        "header": 81
+      }
+    },
+    {
+      "pass": true,
+      "check": "1440px native hero booking navigates to intercepted calendar"
+    },
+    {
+      "pass": true,
+      "check": "no-JavaScript photo loaded and crop retained"
+    },
+    {
+      "pass": true,
+      "check": "no-JavaScript no horizontal overflow"
+    },
+    {
+      "pass": true,
+      "check": "no-JavaScript native calendar destination retained"
+    },
+    {
+      "pass": true,
+      "check": "reduced motion photo loaded and crop retained"
+    },
+    {
+      "pass": true,
+      "check": "reduced motion no horizontal overflow"
+    },
+    {
+      "pass": true,
+      "check": "reduced motion native calendar destination retained"
+    },
+    {
+      "pass": true,
+      "check": "Reduced motion disables hero entrance"
+    },
+    {
+      "pass": true,
+      "check": "Valid optional override uses original generic framing",
+      "detail": {
+        "src": "https://photo-fixture.test/portrait.jpg",
+        "loaded": true,
+        "outdoor": false,
+        "transform": "none"
+      }
+    },
+    {
+      "pass": true,
+      "check": "Failed override restores supplied bytes and generic framing"
+    },
+    {
+      "pass": true,
+      "check": "No JavaScript errors",
+      "detail": []
+    },
+    {
+      "pass": true,
+      "check": "No automatic external resource requests on normal load",
+      "detail": []
+    }
+  ],
+  "geometry": {
+    "320": {
+      "viewport": 320,
+      "width": 320,
+      "hero": {
+        "x": 20,
+        "y": 105,
+        "w": 280,
+        "h": 708.90625,
+        "right": 300,
+        "bottom": 813.90625
+      },
+      "portrait": {
+        "x": 20,
+        "y": 841.90625,
+        "w": 280,
+        "h": 327,
+        "right": 300,
+        "bottom": 1168.90625
+      },
+      "image": {
+        "x": 31,
+        "y": 852.90625,
+        "w": 258,
+        "h": 272,
+        "right": 289,
+        "bottom": 1124.90625
+      },
+      "clip": {
+        "x": 31,
+        "y": 852.90625,
+        "w": 258,
+        "h": 272,
+        "right": 289,
+        "bottom": 1124.90625
+      },
+      "loaded": true,
+      "dimensions": [
+        258,
+        272
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "129px 136px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    },
+    "390": {
+      "viewport": 390,
+      "width": 390,
+      "hero": {
+        "x": 20,
+        "y": 105,
+        "w": 350,
+        "h": 561.875,
+        "right": 370,
+        "bottom": 666.875
+      },
+      "portrait": {
+        "x": 55,
+        "y": 694.875,
+        "w": 280,
+        "h": 327,
+        "right": 335,
+        "bottom": 1021.875
+      },
+      "image": {
+        "x": 66,
+        "y": 705.875,
+        "w": 258,
+        "h": 272,
+        "right": 324,
+        "bottom": 977.875
+      },
+      "clip": {
+        "x": 66,
+        "y": 705.875,
+        "w": 258,
+        "h": 272,
+        "right": 324,
+        "bottom": 977.875
+      },
+      "loaded": true,
+      "dimensions": [
+        258,
+        272
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "129px 136px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    },
+    "768": {
+      "viewport": 768,
+      "width": 768,
+      "hero": {
+        "x": 24,
+        "y": 113,
+        "w": 620,
+        "h": 504.96875,
+        "right": 644,
+        "bottom": 617.96875
+      },
+      "portrait": {
+        "x": 234,
+        "y": 647.96875,
+        "w": 300,
+        "h": 348,
+        "right": 534,
+        "bottom": 995.96875
+      },
+      "image": {
+        "x": 245,
+        "y": 658.96875,
+        "w": 278,
+        "h": 293,
+        "right": 523,
+        "bottom": 951.96875
+      },
+      "clip": {
+        "x": 245,
+        "y": 658.96875,
+        "w": 278,
+        "h": 293,
+        "right": 523,
+        "bottom": 951.96875
+      },
+      "loaded": true,
+      "dimensions": [
+        278,
+        293
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "139px 146.5px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    },
+    "801": {
+      "viewport": 801,
+      "width": 801,
+      "hero": {
+        "x": 32,
+        "y": 127,
+        "w": 423,
+        "h": 523.96875,
+        "right": 455,
+        "bottom": 650.96875
+      },
+      "portrait": {
+        "x": 487,
+        "y": 196.234375,
+        "w": 282,
+        "h": 385.5,
+        "right": 769,
+        "bottom": 581.734375
+      },
+      "image": {
+        "x": 498,
+        "y": 207.234375,
+        "w": 260,
+        "h": 330.5,
+        "right": 758,
+        "bottom": 537.734375
+      },
+      "clip": {
+        "x": 498,
+        "y": 207.234375,
+        "w": 260,
+        "h": 330.5,
+        "right": 758,
+        "bottom": 537.734375
+      },
+      "loaded": true,
+      "dimensions": [
+        260,
+        331
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "130px 165.25px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    },
+    "1024": {
+      "viewport": 1024,
+      "width": 1024,
+      "hero": {
+        "x": 32,
+        "y": 135,
+        "w": 545.28125,
+        "h": 528.84375,
+        "right": 577.28125,
+        "bottom": 663.84375
+      },
+      "portrait": {
+        "x": 628.46875,
+        "y": 155.71875,
+        "w": 363.515625,
+        "h": 487.390625,
+        "right": 991.984375,
+        "bottom": 643.109375
+      },
+      "image": {
+        "x": 639.46875,
+        "y": 166.71875,
+        "w": 341.515625,
+        "h": 432.390625,
+        "right": 980.984375,
+        "bottom": 599.109375
+      },
+      "clip": {
+        "x": 639.46875,
+        "y": 166.71875,
+        "w": 341.515625,
+        "h": 432.390625,
+        "right": 980.984375,
+        "bottom": 599.109375
+      },
+      "loaded": true,
+      "dimensions": [
+        342,
+        432
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "170.758px 216.195px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    },
+    "1440": {
+      "viewport": 1440,
+      "width": 1440,
+      "hero": {
+        "x": 140,
+        "y": 135,
+        "w": 652.796875,
+        "h": 520.734375,
+        "right": 792.796875,
+        "bottom": 655.734375
+      },
+      "portrait": {
+        "x": 910,
+        "y": 135.109375,
+        "w": 390,
+        "h": 520.5,
+        "right": 1300,
+        "bottom": 655.609375
+      },
+      "image": {
+        "x": 921,
+        "y": 146.109375,
+        "w": 368,
+        "h": 465.5,
+        "right": 1289,
+        "bottom": 611.609375
+      },
+      "clip": {
+        "x": 921,
+        "y": 146.109375,
+        "w": 368,
+        "h": 465.5,
+        "right": 1289,
+        "bottom": 611.609375
+      },
+      "loaded": true,
+      "dimensions": [
+        368,
+        466
+      ],
+      "alt": "Ahmad Hussain wearing a black blazer and white shirt",
+      "outdoor": false,
+      "transform": "none",
+      "origin": "184px 232.75px",
+      "overflow": "hidden",
+      "font": "Arial, Helvetica, sans-serif",
+      "serif": "Georgia, \"Times New Roman\", serif"
+    }
+  },
+  "limits": [
+    "Chromium only; no Firefox, Safari or real-device checks.",
+    "Exact HTML fulfilled at synthetic HTTPS URL, without deployment.",
+    "Calendly response intercepted; no live availability or appointment tested.",
+    "Photo pixels are original uploaded JPEG; existing generic framing is retained without extra CSS zoom."
+  ],
+  "visualReview": "Reviewed desktop/mobile hero and isolated portrait screenshots. Hair and face are fully visible, headroom is comfortable, the formal portrait is clear without extra zoom, the rounded frame and caption remain intact, and no blocking crop or layout issue was found. Existing object positions need no adjustment.",
+  "screenshots": [
+    {
+      "file": "hero-desktop.png",
+      "sha256": "c1e5517c7f5e2e1c318b87e6ae9f502150afb766bd3d2045fe8508b8f77fac44",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "bytes": 478385
+    },
+    {
+      "file": "hero-mobile.png",
+      "sha256": "1537877bf4551f29a32b7f17c080e02d6c3b2e886dddde82da15f84b80744403",
+      "dimensions": [
+        390,
+        1000
+      ],
+      "bytes": 155929
+    },
+    {
+      "file": "portrait-desktop.png",
+      "sha256": "ecd1b6a9a325ddf3359ee88fad1351c7c499fb4ac4dd0020f2a0bf533f1219f6",
+      "dimensions": [
+        390,
+        521
+      ],
+      "bytes": 234839
+    },
+    {
+      "file": "portrait-mobile.png",
+      "sha256": "14ec48270220a32f86a5a00907b4b771dd60cfd6a0c9278ccd004a2f08ddf5ef",
+      "dimensions": [
+        280,
+        328
+      ],
+      "bytes": 95560
+    }
+  ],
+  "previewManifest": {
+    "htmlSha256": "9c85e39a827a26ea454cc7fc4a26817126b3bdf2de53e9b3c2de79fe0bb89c4a",
+    "uploadedPhotoSha256": "1ab20238abff1331a9dce7dc89c4d5c9d6efbe757fbf661396ee9b19a8884498",
+    "screenshots": [
+      {
+        "file": "hero-desktop.png",
+        "sha256": "c1e5517c7f5e2e1c318b87e6ae9f502150afb766bd3d2045fe8508b8f77fac44",
+        "dimensions": [
+          1440,
+          1000
+        ],
+        "bytes": 478385
+      },
+      {
+        "file": "hero-mobile.png",
+        "sha256": "1537877bf4551f29a32b7f17c080e02d6c3b2e886dddde82da15f84b80744403",
+        "dimensions": [
+          390,
+          1000
+        ],
+        "bytes": 155929
+      },
+      {
+        "file": "portrait-desktop.png",
+        "sha256": "ecd1b6a9a325ddf3359ee88fad1351c7c499fb4ac4dd0020f2a0bf533f1219f6",
+        "dimensions": [
+          390,
+          521
+        ],
+        "bytes": 234839
+      },
+      {
+        "file": "portrait-mobile.png",
+        "sha256": "14ec48270220a32f86a5a00907b4b771dd60cfd6a0c9278ccd004a2f08ddf5ef",
+        "dimensions": [
+          280,
+          328
+        ],
+        "bytes": 95560
+      }
+    ],
+    "captureNotes": "Actual Chromium renders at1440x1000 and390x1000; reduced motion for still capture. Portrait close-ups hide sticky header only during screenshot capture. No photo pixels or source content changed for capture."
+  },
+  "sourceChecks": {
+    "jpegBytesUnchanged": true,
+    "pageTextUnchanged": true,
+    "settingsUnchanged": true,
+    "bookingLinksUnchanged": true,
+    "newDimensions": true,
+    "descriptiveAlt": true,
+    "oldCropRemoved": true,
+    "uniqueIds": true,
+    "inlineJavaScriptSyntax": true
+  }
+}
